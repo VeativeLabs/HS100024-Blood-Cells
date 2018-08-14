@@ -1,0 +1,2197 @@
+fileFormatVersion: 2
+guid: 5e7351f584d13d64298f4b089e18cd8a
+timeCreated: 1477558342
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bacteria
+    100002: Basophil_1
+    100004: be_wing_left_01
+    100006: be_wing_left_01 1
+    100008: be_wing_right_01
+    100010: be_wing_right_01 1
+    100012: bn_wing_left_01
+    100014: bn_wing_left_01 1
+    100016: bn_wing_left_02
+    100018: bn_wing_left_02 1
+    100020: bn_wing_right_01
+    100022: bn_wing_right_01 1
+    100024: bn_wing_right_02
+    100026: bn_wing_right_02 1
+    100028: bnJnt_0
+    100030: bnJnt_0 1
+    100032: bnJnt_0 2
+    100034: bnJnt_0 3
+    100036: bnJnt_0 4
+    100038: bnJnt_0 5
+    100040: bnJnt_0 6
+    100042: bnJnt_1
+    100044: bnJnt_1 1
+    100046: bnJnt_1 2
+    100048: bnJnt_1 3
+    100050: bnJnt_1 4
+    100052: bnJnt_1 5
+    100054: bnJnt_1 6
+    100056: bnJnt_10
+    100058: bnJnt_10 1
+    100060: bnJnt_10 2
+    100062: bnJnt_10 3
+    100064: bnJnt_10 4
+    100066: bnJnt_10 5
+    100068: bnJnt_10 6
+    100070: bnJnt_11
+    100072: bnJnt_11 1
+    100074: bnJnt_11 2
+    100076: bnJnt_11 3
+    100078: bnJnt_11 4
+    100080: bnJnt_11 5
+    100082: bnJnt_11 6
+    100084: bnJnt_12
+    100086: bnJnt_12 1
+    100088: bnJnt_12 2
+    100090: bnJnt_12 3
+    100092: bnJnt_12 4
+    100094: bnJnt_12 5
+    100096: bnJnt_12 6
+    100098: bnJnt_13
+    100100: bnJnt_13 1
+    100102: bnJnt_13 2
+    100104: bnJnt_13 3
+    100106: bnJnt_13 4
+    100108: bnJnt_13 5
+    100110: bnJnt_13 6
+    100112: bnJnt_14
+    100114: bnJnt_14 1
+    100116: bnJnt_14 2
+    100118: bnJnt_14 3
+    100120: bnJnt_14 4
+    100122: bnJnt_14 5
+    100124: bnJnt_14 6
+    100126: bnJnt_15
+    100128: bnJnt_15 1
+    100130: bnJnt_15 2
+    100132: bnJnt_15 3
+    100134: bnJnt_15 4
+    100136: bnJnt_15 5
+    100138: bnJnt_15 6
+    100140: bnJnt_16
+    100142: bnJnt_16 1
+    100144: bnJnt_16 2
+    100146: bnJnt_16 3
+    100148: bnJnt_16 4
+    100150: bnJnt_16 5
+    100152: bnJnt_16 6
+    100154: bnJnt_17
+    100156: bnJnt_17 1
+    100158: bnJnt_17 2
+    100160: bnJnt_17 3
+    100162: bnJnt_17 4
+    100164: bnJnt_17 5
+    100166: bnJnt_17 6
+    100168: bnJnt_2
+    100170: bnJnt_2 1
+    100172: bnJnt_2 2
+    100174: bnJnt_2 3
+    100176: bnJnt_2 4
+    100178: bnJnt_2 5
+    100180: bnJnt_2 6
+    100182: bnJnt_3
+    100184: bnJnt_3 1
+    100186: bnJnt_3 2
+    100188: bnJnt_3 3
+    100190: bnJnt_3 4
+    100192: bnJnt_3 5
+    100194: bnJnt_3 6
+    100196: bnJnt_4
+    100198: bnJnt_4 1
+    100200: bnJnt_4 2
+    100202: bnJnt_4 3
+    100204: bnJnt_4 4
+    100206: bnJnt_4 5
+    100208: bnJnt_4 6
+    100210: bnJnt_5
+    100212: bnJnt_5 1
+    100214: bnJnt_5 2
+    100216: bnJnt_5 3
+    100218: bnJnt_5 4
+    100220: bnJnt_5 5
+    100222: bnJnt_5 6
+    100224: bnJnt_6
+    100226: bnJnt_6 1
+    100228: bnJnt_6 2
+    100230: bnJnt_6 3
+    100232: bnJnt_6 4
+    100234: bnJnt_6 5
+    100236: bnJnt_6 6
+    100238: bnJnt_7
+    100240: bnJnt_7 1
+    100242: bnJnt_7 2
+    100244: bnJnt_7 3
+    100246: bnJnt_7 4
+    100248: bnJnt_7 5
+    100250: bnJnt_7 6
+    100252: bnJnt_8
+    100254: bnJnt_8 1
+    100256: bnJnt_8 2
+    100258: bnJnt_8 3
+    100260: bnJnt_8 4
+    100262: bnJnt_8 5
+    100264: bnJnt_8 6
+    100266: bnJnt_9
+    100268: bnJnt_9 1
+    100270: bnJnt_9 2
+    100272: bnJnt_9 3
+    100274: bnJnt_9 4
+    100276: bnJnt_9 5
+    100278: bnJnt_9 6
+    100280: bnRoot_
+    100282: bnRoot_ 1
+    100284: bnRoot_ 2
+    100286: bnRoot_ 3
+    100288: bnRoot_ 4
+    100290: bnRoot_ 5
+    100292: bnRoot_ 6
+    100294: cnt_bnRoot_0_Basophil
+    100296: cnt_bnRoot_0_Eosinophil
+    100298: cnt_bnRoot_0_Lymphocytes
+    100300: cnt_bnRoot_0_Lymphocytes 1
+    100302: cnt_bnRoot_0_Monocyte
+    100304: cnt_bnRoot_0_Neutrophil
+    100306: cnt_bnRoot_0_Round_Bacteria
+    100308: cnt_bnRoot_0_Round_Bacteria_g
+    100310: cntrl_bnJnt_0
+    100312: cntrl_bnJnt_0 1
+    100314: cntrl_bnJnt_0 2
+    100316: cntrl_bnJnt_0 3
+    100318: cntrl_bnJnt_0 4
+    100320: cntrl_bnJnt_0 5
+    100322: cntrl_bnJnt_0 6
+    100324: cntrl_bnJnt_0_grp
+    100326: cntrl_bnJnt_0_grp 1
+    100328: cntrl_bnJnt_0_grp 2
+    100330: cntrl_bnJnt_0_grp 3
+    100332: cntrl_bnJnt_0_grp 4
+    100334: cntrl_bnJnt_0_grp 5
+    100336: cntrl_bnJnt_0_grp 6
+    100338: cntrl_bnJnt_1
+    100340: cntrl_bnJnt_1 1
+    100342: cntrl_bnJnt_1 2
+    100344: cntrl_bnJnt_1 3
+    100346: cntrl_bnJnt_1 4
+    100348: cntrl_bnJnt_1 5
+    100350: cntrl_bnJnt_1 6
+    100352: cntrl_bnJnt_10
+    100354: cntrl_bnJnt_10 1
+    100356: cntrl_bnJnt_10 2
+    100358: cntrl_bnJnt_10 3
+    100360: cntrl_bnJnt_10 4
+    100362: cntrl_bnJnt_10 5
+    100364: cntrl_bnJnt_10 6
+    100366: cntrl_bnJnt_10_grp
+    100368: cntrl_bnJnt_10_grp 1
+    100370: cntrl_bnJnt_10_grp 2
+    100372: cntrl_bnJnt_10_grp 3
+    100374: cntrl_bnJnt_10_grp 4
+    100376: cntrl_bnJnt_10_grp 5
+    100378: cntrl_bnJnt_10_grp 6
+    100380: cntrl_bnJnt_11
+    100382: cntrl_bnJnt_11 1
+    100384: cntrl_bnJnt_11 2
+    100386: cntrl_bnJnt_11 3
+    100388: cntrl_bnJnt_11 4
+    100390: cntrl_bnJnt_11 5
+    100392: cntrl_bnJnt_11 6
+    100394: cntrl_bnJnt_11_grp
+    100396: cntrl_bnJnt_11_grp 1
+    100398: cntrl_bnJnt_11_grp 2
+    100400: cntrl_bnJnt_11_grp 3
+    100402: cntrl_bnJnt_11_grp 4
+    100404: cntrl_bnJnt_11_grp 5
+    100406: cntrl_bnJnt_11_grp 6
+    100408: cntrl_bnJnt_12
+    100410: cntrl_bnJnt_12 1
+    100412: cntrl_bnJnt_12 2
+    100414: cntrl_bnJnt_12 3
+    100416: cntrl_bnJnt_12 4
+    100418: cntrl_bnJnt_12 5
+    100420: cntrl_bnJnt_12 6
+    100422: cntrl_bnJnt_12_grp
+    100424: cntrl_bnJnt_12_grp 1
+    100426: cntrl_bnJnt_12_grp 2
+    100428: cntrl_bnJnt_12_grp 3
+    100430: cntrl_bnJnt_12_grp 4
+    100432: cntrl_bnJnt_12_grp 5
+    100434: cntrl_bnJnt_12_grp 6
+    100436: cntrl_bnJnt_13
+    100438: cntrl_bnJnt_13 1
+    100440: cntrl_bnJnt_13 2
+    100442: cntrl_bnJnt_13 3
+    100444: cntrl_bnJnt_13 4
+    100446: cntrl_bnJnt_13 5
+    100448: cntrl_bnJnt_13 6
+    100450: cntrl_bnJnt_13_grp
+    100452: cntrl_bnJnt_13_grp 1
+    100454: cntrl_bnJnt_13_grp 2
+    100456: cntrl_bnJnt_13_grp 3
+    100458: cntrl_bnJnt_13_grp 4
+    100460: cntrl_bnJnt_13_grp 5
+    100462: cntrl_bnJnt_13_grp 6
+    100464: cntrl_bnJnt_14
+    100466: cntrl_bnJnt_14 1
+    100468: cntrl_bnJnt_14 2
+    100470: cntrl_bnJnt_14 3
+    100472: cntrl_bnJnt_14 4
+    100474: cntrl_bnJnt_14 5
+    100476: cntrl_bnJnt_14 6
+    100478: cntrl_bnJnt_14_grp
+    100480: cntrl_bnJnt_14_grp 1
+    100482: cntrl_bnJnt_14_grp 2
+    100484: cntrl_bnJnt_14_grp 3
+    100486: cntrl_bnJnt_14_grp 4
+    100488: cntrl_bnJnt_14_grp 5
+    100490: cntrl_bnJnt_14_grp 6
+    100492: cntrl_bnJnt_15
+    100494: cntrl_bnJnt_15 1
+    100496: cntrl_bnJnt_15 2
+    100498: cntrl_bnJnt_15 3
+    100500: cntrl_bnJnt_15 4
+    100502: cntrl_bnJnt_15 5
+    100504: cntrl_bnJnt_15 6
+    100506: cntrl_bnJnt_15_grp
+    100508: cntrl_bnJnt_15_grp 1
+    100510: cntrl_bnJnt_15_grp 2
+    100512: cntrl_bnJnt_15_grp 3
+    100514: cntrl_bnJnt_15_grp 4
+    100516: cntrl_bnJnt_15_grp 5
+    100518: cntrl_bnJnt_15_grp 6
+    100520: cntrl_bnJnt_16
+    100522: cntrl_bnJnt_16 1
+    100524: cntrl_bnJnt_16 2
+    100526: cntrl_bnJnt_16 3
+    100528: cntrl_bnJnt_16 4
+    100530: cntrl_bnJnt_16 5
+    100532: cntrl_bnJnt_16 6
+    100534: cntrl_bnJnt_16_grp
+    100536: cntrl_bnJnt_16_grp 1
+    100538: cntrl_bnJnt_16_grp 2
+    100540: cntrl_bnJnt_16_grp 3
+    100542: cntrl_bnJnt_16_grp 4
+    100544: cntrl_bnJnt_16_grp 5
+    100546: cntrl_bnJnt_16_grp 6
+    100548: cntrl_bnJnt_17
+    100550: cntrl_bnJnt_17 1
+    100552: cntrl_bnJnt_17 2
+    100554: cntrl_bnJnt_17 3
+    100556: cntrl_bnJnt_17 4
+    100558: cntrl_bnJnt_17 5
+    100560: cntrl_bnJnt_17 6
+    100562: cntrl_bnJnt_17_grp
+    100564: cntrl_bnJnt_17_grp 1
+    100566: cntrl_bnJnt_17_grp 2
+    100568: cntrl_bnJnt_17_grp 3
+    100570: cntrl_bnJnt_17_grp 4
+    100572: cntrl_bnJnt_17_grp 5
+    100574: cntrl_bnJnt_17_grp 6
+    100576: cntrl_bnJnt_1_grp
+    100578: cntrl_bnJnt_1_grp 1
+    100580: cntrl_bnJnt_1_grp 2
+    100582: cntrl_bnJnt_1_grp 3
+    100584: cntrl_bnJnt_1_grp 4
+    100586: cntrl_bnJnt_1_grp 5
+    100588: cntrl_bnJnt_1_grp 6
+    100590: cntrl_bnJnt_2
+    100592: cntrl_bnJnt_2 1
+    100594: cntrl_bnJnt_2 2
+    100596: cntrl_bnJnt_2 3
+    100598: cntrl_bnJnt_2 4
+    100600: cntrl_bnJnt_2 5
+    100602: cntrl_bnJnt_2 6
+    100604: cntrl_bnJnt_2_grp
+    100606: cntrl_bnJnt_2_grp 1
+    100608: cntrl_bnJnt_2_grp 2
+    100610: cntrl_bnJnt_2_grp 3
+    100612: cntrl_bnJnt_2_grp 4
+    100614: cntrl_bnJnt_2_grp 5
+    100616: cntrl_bnJnt_2_grp 6
+    100618: cntrl_bnJnt_3
+    100620: cntrl_bnJnt_3 1
+    100622: cntrl_bnJnt_3 2
+    100624: cntrl_bnJnt_3 3
+    100626: cntrl_bnJnt_3 4
+    100628: cntrl_bnJnt_3 5
+    100630: cntrl_bnJnt_3 6
+    100632: cntrl_bnJnt_3_grp
+    100634: cntrl_bnJnt_3_grp 1
+    100636: cntrl_bnJnt_3_grp 2
+    100638: cntrl_bnJnt_3_grp 3
+    100640: cntrl_bnJnt_3_grp 4
+    100642: cntrl_bnJnt_3_grp 5
+    100644: cntrl_bnJnt_3_grp 6
+    100646: cntrl_bnJnt_4
+    100648: cntrl_bnJnt_4 1
+    100650: cntrl_bnJnt_4 2
+    100652: cntrl_bnJnt_4 3
+    100654: cntrl_bnJnt_4 4
+    100656: cntrl_bnJnt_4 5
+    100658: cntrl_bnJnt_4 6
+    100660: cntrl_bnJnt_4_grp
+    100662: cntrl_bnJnt_4_grp 1
+    100664: cntrl_bnJnt_4_grp 2
+    100666: cntrl_bnJnt_4_grp 3
+    100668: cntrl_bnJnt_4_grp 4
+    100670: cntrl_bnJnt_4_grp 5
+    100672: cntrl_bnJnt_4_grp 6
+    100674: cntrl_bnJnt_5
+    100676: cntrl_bnJnt_5 1
+    100678: cntrl_bnJnt_5 2
+    100680: cntrl_bnJnt_5 3
+    100682: cntrl_bnJnt_5 4
+    100684: cntrl_bnJnt_5 5
+    100686: cntrl_bnJnt_5 6
+    100688: cntrl_bnJnt_5_grp
+    100690: cntrl_bnJnt_5_grp 1
+    100692: cntrl_bnJnt_5_grp 2
+    100694: cntrl_bnJnt_5_grp 3
+    100696: cntrl_bnJnt_5_grp 4
+    100698: cntrl_bnJnt_5_grp 5
+    100700: cntrl_bnJnt_5_grp 6
+    100702: cntrl_bnJnt_6
+    100704: cntrl_bnJnt_6 1
+    100706: cntrl_bnJnt_6 2
+    100708: cntrl_bnJnt_6 3
+    100710: cntrl_bnJnt_6 4
+    100712: cntrl_bnJnt_6 5
+    100714: cntrl_bnJnt_6 6
+    100716: cntrl_bnJnt_6_grp
+    100718: cntrl_bnJnt_6_grp 1
+    100720: cntrl_bnJnt_6_grp 2
+    100722: cntrl_bnJnt_6_grp 3
+    100724: cntrl_bnJnt_6_grp 4
+    100726: cntrl_bnJnt_6_grp 5
+    100728: cntrl_bnJnt_6_grp 6
+    100730: cntrl_bnJnt_7
+    100732: cntrl_bnJnt_7 1
+    100734: cntrl_bnJnt_7 2
+    100736: cntrl_bnJnt_7 3
+    100738: cntrl_bnJnt_7 4
+    100740: cntrl_bnJnt_7 5
+    100742: cntrl_bnJnt_7 6
+    100744: cntrl_bnJnt_7_grp
+    100746: cntrl_bnJnt_7_grp 1
+    100748: cntrl_bnJnt_7_grp 2
+    100750: cntrl_bnJnt_7_grp 3
+    100752: cntrl_bnJnt_7_grp 4
+    100754: cntrl_bnJnt_7_grp 5
+    100756: cntrl_bnJnt_7_grp 6
+    100758: cntrl_bnJnt_8
+    100760: cntrl_bnJnt_8 1
+    100762: cntrl_bnJnt_8 2
+    100764: cntrl_bnJnt_8 3
+    100766: cntrl_bnJnt_8 4
+    100768: cntrl_bnJnt_8 5
+    100770: cntrl_bnJnt_8 6
+    100772: cntrl_bnJnt_8_grp
+    100774: cntrl_bnJnt_8_grp 1
+    100776: cntrl_bnJnt_8_grp 2
+    100778: cntrl_bnJnt_8_grp 3
+    100780: cntrl_bnJnt_8_grp 4
+    100782: cntrl_bnJnt_8_grp 5
+    100784: cntrl_bnJnt_8_grp 6
+    100786: cntrl_bnJnt_9
+    100788: cntrl_bnJnt_9 1
+    100790: cntrl_bnJnt_9 2
+    100792: cntrl_bnJnt_9 3
+    100794: cntrl_bnJnt_9 4
+    100796: cntrl_bnJnt_9 5
+    100798: cntrl_bnJnt_9 6
+    100800: cntrl_bnJnt_9_grp
+    100802: cntrl_bnJnt_9_grp 1
+    100804: cntrl_bnJnt_9_grp 2
+    100806: cntrl_bnJnt_9_grp 3
+    100808: cntrl_bnJnt_9_grp 4
+    100810: cntrl_bnJnt_9_grp 5
+    100812: cntrl_bnJnt_9_grp 6
+    100814: cntrl_bnRoot__grp_cnt_Lymphocytes
+    100816: cntrl_bnRoot_grp_Basophil
+    100818: cntrl_bnRoot_grp_Eosinophil
+    100820: cntrl_bnRoot_grp_Lymphocytes
+    100822: cntrl_bnRoot_grp_Monocyte
+    100824: cntrl_bnRoot_grp_Neutrophil
+    100826: Eosinophil_1
+    100828: group1
+    100830: group2
+    100832: group3
+    100834: group4
+    100836: group5
+    100838: group6
+    100840: group7
+    100842: Lymphocytes_1
+    100844: Lymphocytes_2
+    100846: Monocyte
+    100848: Monocyte 1
+    100850: Neutrophil
+    100852: Neutrophil 1
+    100854: Neutrophil 2
+    100856: //RootNode
+    100858: bacteria 1
+    100860: Basophil_1 1
+    100862: Eosinophil_1 1
+    100864: Lymphocytes_1 1
+    100866: Lymphocytes_2 1
+    100868: Monocyte 2
+    100870: Neutrophil 3
+    400000: bacteria
+    400002: Basophil_1
+    400004: be_wing_left_01
+    400006: be_wing_left_01 1
+    400008: be_wing_right_01
+    400010: be_wing_right_01 1
+    400012: bn_wing_left_01
+    400014: bn_wing_left_01 1
+    400016: bn_wing_left_02
+    400018: bn_wing_left_02 1
+    400020: bn_wing_right_01
+    400022: bn_wing_right_01 1
+    400024: bn_wing_right_02
+    400026: bn_wing_right_02 1
+    400028: bnJnt_0
+    400030: bnJnt_0 1
+    400032: bnJnt_0 2
+    400034: bnJnt_0 3
+    400036: bnJnt_0 4
+    400038: bnJnt_0 5
+    400040: bnJnt_0 6
+    400042: bnJnt_1
+    400044: bnJnt_1 1
+    400046: bnJnt_1 2
+    400048: bnJnt_1 3
+    400050: bnJnt_1 4
+    400052: bnJnt_1 5
+    400054: bnJnt_1 6
+    400056: bnJnt_10
+    400058: bnJnt_10 1
+    400060: bnJnt_10 2
+    400062: bnJnt_10 3
+    400064: bnJnt_10 4
+    400066: bnJnt_10 5
+    400068: bnJnt_10 6
+    400070: bnJnt_11
+    400072: bnJnt_11 1
+    400074: bnJnt_11 2
+    400076: bnJnt_11 3
+    400078: bnJnt_11 4
+    400080: bnJnt_11 5
+    400082: bnJnt_11 6
+    400084: bnJnt_12
+    400086: bnJnt_12 1
+    400088: bnJnt_12 2
+    400090: bnJnt_12 3
+    400092: bnJnt_12 4
+    400094: bnJnt_12 5
+    400096: bnJnt_12 6
+    400098: bnJnt_13
+    400100: bnJnt_13 1
+    400102: bnJnt_13 2
+    400104: bnJnt_13 3
+    400106: bnJnt_13 4
+    400108: bnJnt_13 5
+    400110: bnJnt_13 6
+    400112: bnJnt_14
+    400114: bnJnt_14 1
+    400116: bnJnt_14 2
+    400118: bnJnt_14 3
+    400120: bnJnt_14 4
+    400122: bnJnt_14 5
+    400124: bnJnt_14 6
+    400126: bnJnt_15
+    400128: bnJnt_15 1
+    400130: bnJnt_15 2
+    400132: bnJnt_15 3
+    400134: bnJnt_15 4
+    400136: bnJnt_15 5
+    400138: bnJnt_15 6
+    400140: bnJnt_16
+    400142: bnJnt_16 1
+    400144: bnJnt_16 2
+    400146: bnJnt_16 3
+    400148: bnJnt_16 4
+    400150: bnJnt_16 5
+    400152: bnJnt_16 6
+    400154: bnJnt_17
+    400156: bnJnt_17 1
+    400158: bnJnt_17 2
+    400160: bnJnt_17 3
+    400162: bnJnt_17 4
+    400164: bnJnt_17 5
+    400166: bnJnt_17 6
+    400168: bnJnt_2
+    400170: bnJnt_2 1
+    400172: bnJnt_2 2
+    400174: bnJnt_2 3
+    400176: bnJnt_2 4
+    400178: bnJnt_2 5
+    400180: bnJnt_2 6
+    400182: bnJnt_3
+    400184: bnJnt_3 1
+    400186: bnJnt_3 2
+    400188: bnJnt_3 3
+    400190: bnJnt_3 4
+    400192: bnJnt_3 5
+    400194: bnJnt_3 6
+    400196: bnJnt_4
+    400198: bnJnt_4 1
+    400200: bnJnt_4 2
+    400202: bnJnt_4 3
+    400204: bnJnt_4 4
+    400206: bnJnt_4 5
+    400208: bnJnt_4 6
+    400210: bnJnt_5
+    400212: bnJnt_5 1
+    400214: bnJnt_5 2
+    400216: bnJnt_5 3
+    400218: bnJnt_5 4
+    400220: bnJnt_5 5
+    400222: bnJnt_5 6
+    400224: bnJnt_6
+    400226: bnJnt_6 1
+    400228: bnJnt_6 2
+    400230: bnJnt_6 3
+    400232: bnJnt_6 4
+    400234: bnJnt_6 5
+    400236: bnJnt_6 6
+    400238: bnJnt_7
+    400240: bnJnt_7 1
+    400242: bnJnt_7 2
+    400244: bnJnt_7 3
+    400246: bnJnt_7 4
+    400248: bnJnt_7 5
+    400250: bnJnt_7 6
+    400252: bnJnt_8
+    400254: bnJnt_8 1
+    400256: bnJnt_8 2
+    400258: bnJnt_8 3
+    400260: bnJnt_8 4
+    400262: bnJnt_8 5
+    400264: bnJnt_8 6
+    400266: bnJnt_9
+    400268: bnJnt_9 1
+    400270: bnJnt_9 2
+    400272: bnJnt_9 3
+    400274: bnJnt_9 4
+    400276: bnJnt_9 5
+    400278: bnJnt_9 6
+    400280: bnRoot_
+    400282: bnRoot_ 1
+    400284: bnRoot_ 2
+    400286: bnRoot_ 3
+    400288: bnRoot_ 4
+    400290: bnRoot_ 5
+    400292: bnRoot_ 6
+    400294: cnt_bnRoot_0_Basophil
+    400296: cnt_bnRoot_0_Eosinophil
+    400298: cnt_bnRoot_0_Lymphocytes
+    400300: cnt_bnRoot_0_Lymphocytes 1
+    400302: cnt_bnRoot_0_Monocyte
+    400304: cnt_bnRoot_0_Neutrophil
+    400306: cnt_bnRoot_0_Round_Bacteria
+    400308: cnt_bnRoot_0_Round_Bacteria_g
+    400310: cntrl_bnJnt_0
+    400312: cntrl_bnJnt_0 1
+    400314: cntrl_bnJnt_0 2
+    400316: cntrl_bnJnt_0 3
+    400318: cntrl_bnJnt_0 4
+    400320: cntrl_bnJnt_0 5
+    400322: cntrl_bnJnt_0 6
+    400324: cntrl_bnJnt_0_grp
+    400326: cntrl_bnJnt_0_grp 1
+    400328: cntrl_bnJnt_0_grp 2
+    400330: cntrl_bnJnt_0_grp 3
+    400332: cntrl_bnJnt_0_grp 4
+    400334: cntrl_bnJnt_0_grp 5
+    400336: cntrl_bnJnt_0_grp 6
+    400338: cntrl_bnJnt_1
+    400340: cntrl_bnJnt_1 1
+    400342: cntrl_bnJnt_1 2
+    400344: cntrl_bnJnt_1 3
+    400346: cntrl_bnJnt_1 4
+    400348: cntrl_bnJnt_1 5
+    400350: cntrl_bnJnt_1 6
+    400352: cntrl_bnJnt_10
+    400354: cntrl_bnJnt_10 1
+    400356: cntrl_bnJnt_10 2
+    400358: cntrl_bnJnt_10 3
+    400360: cntrl_bnJnt_10 4
+    400362: cntrl_bnJnt_10 5
+    400364: cntrl_bnJnt_10 6
+    400366: cntrl_bnJnt_10_grp
+    400368: cntrl_bnJnt_10_grp 1
+    400370: cntrl_bnJnt_10_grp 2
+    400372: cntrl_bnJnt_10_grp 3
+    400374: cntrl_bnJnt_10_grp 4
+    400376: cntrl_bnJnt_10_grp 5
+    400378: cntrl_bnJnt_10_grp 6
+    400380: cntrl_bnJnt_11
+    400382: cntrl_bnJnt_11 1
+    400384: cntrl_bnJnt_11 2
+    400386: cntrl_bnJnt_11 3
+    400388: cntrl_bnJnt_11 4
+    400390: cntrl_bnJnt_11 5
+    400392: cntrl_bnJnt_11 6
+    400394: cntrl_bnJnt_11_grp
+    400396: cntrl_bnJnt_11_grp 1
+    400398: cntrl_bnJnt_11_grp 2
+    400400: cntrl_bnJnt_11_grp 3
+    400402: cntrl_bnJnt_11_grp 4
+    400404: cntrl_bnJnt_11_grp 5
+    400406: cntrl_bnJnt_11_grp 6
+    400408: cntrl_bnJnt_12
+    400410: cntrl_bnJnt_12 1
+    400412: cntrl_bnJnt_12 2
+    400414: cntrl_bnJnt_12 3
+    400416: cntrl_bnJnt_12 4
+    400418: cntrl_bnJnt_12 5
+    400420: cntrl_bnJnt_12 6
+    400422: cntrl_bnJnt_12_grp
+    400424: cntrl_bnJnt_12_grp 1
+    400426: cntrl_bnJnt_12_grp 2
+    400428: cntrl_bnJnt_12_grp 3
+    400430: cntrl_bnJnt_12_grp 4
+    400432: cntrl_bnJnt_12_grp 5
+    400434: cntrl_bnJnt_12_grp 6
+    400436: cntrl_bnJnt_13
+    400438: cntrl_bnJnt_13 1
+    400440: cntrl_bnJnt_13 2
+    400442: cntrl_bnJnt_13 3
+    400444: cntrl_bnJnt_13 4
+    400446: cntrl_bnJnt_13 5
+    400448: cntrl_bnJnt_13 6
+    400450: cntrl_bnJnt_13_grp
+    400452: cntrl_bnJnt_13_grp 1
+    400454: cntrl_bnJnt_13_grp 2
+    400456: cntrl_bnJnt_13_grp 3
+    400458: cntrl_bnJnt_13_grp 4
+    400460: cntrl_bnJnt_13_grp 5
+    400462: cntrl_bnJnt_13_grp 6
+    400464: cntrl_bnJnt_14
+    400466: cntrl_bnJnt_14 1
+    400468: cntrl_bnJnt_14 2
+    400470: cntrl_bnJnt_14 3
+    400472: cntrl_bnJnt_14 4
+    400474: cntrl_bnJnt_14 5
+    400476: cntrl_bnJnt_14 6
+    400478: cntrl_bnJnt_14_grp
+    400480: cntrl_bnJnt_14_grp 1
+    400482: cntrl_bnJnt_14_grp 2
+    400484: cntrl_bnJnt_14_grp 3
+    400486: cntrl_bnJnt_14_grp 4
+    400488: cntrl_bnJnt_14_grp 5
+    400490: cntrl_bnJnt_14_grp 6
+    400492: cntrl_bnJnt_15
+    400494: cntrl_bnJnt_15 1
+    400496: cntrl_bnJnt_15 2
+    400498: cntrl_bnJnt_15 3
+    400500: cntrl_bnJnt_15 4
+    400502: cntrl_bnJnt_15 5
+    400504: cntrl_bnJnt_15 6
+    400506: cntrl_bnJnt_15_grp
+    400508: cntrl_bnJnt_15_grp 1
+    400510: cntrl_bnJnt_15_grp 2
+    400512: cntrl_bnJnt_15_grp 3
+    400514: cntrl_bnJnt_15_grp 4
+    400516: cntrl_bnJnt_15_grp 5
+    400518: cntrl_bnJnt_15_grp 6
+    400520: cntrl_bnJnt_16
+    400522: cntrl_bnJnt_16 1
+    400524: cntrl_bnJnt_16 2
+    400526: cntrl_bnJnt_16 3
+    400528: cntrl_bnJnt_16 4
+    400530: cntrl_bnJnt_16 5
+    400532: cntrl_bnJnt_16 6
+    400534: cntrl_bnJnt_16_grp
+    400536: cntrl_bnJnt_16_grp 1
+    400538: cntrl_bnJnt_16_grp 2
+    400540: cntrl_bnJnt_16_grp 3
+    400542: cntrl_bnJnt_16_grp 4
+    400544: cntrl_bnJnt_16_grp 5
+    400546: cntrl_bnJnt_16_grp 6
+    400548: cntrl_bnJnt_17
+    400550: cntrl_bnJnt_17 1
+    400552: cntrl_bnJnt_17 2
+    400554: cntrl_bnJnt_17 3
+    400556: cntrl_bnJnt_17 4
+    400558: cntrl_bnJnt_17 5
+    400560: cntrl_bnJnt_17 6
+    400562: cntrl_bnJnt_17_grp
+    400564: cntrl_bnJnt_17_grp 1
+    400566: cntrl_bnJnt_17_grp 2
+    400568: cntrl_bnJnt_17_grp 3
+    400570: cntrl_bnJnt_17_grp 4
+    400572: cntrl_bnJnt_17_grp 5
+    400574: cntrl_bnJnt_17_grp 6
+    400576: cntrl_bnJnt_1_grp
+    400578: cntrl_bnJnt_1_grp 1
+    400580: cntrl_bnJnt_1_grp 2
+    400582: cntrl_bnJnt_1_grp 3
+    400584: cntrl_bnJnt_1_grp 4
+    400586: cntrl_bnJnt_1_grp 5
+    400588: cntrl_bnJnt_1_grp 6
+    400590: cntrl_bnJnt_2
+    400592: cntrl_bnJnt_2 1
+    400594: cntrl_bnJnt_2 2
+    400596: cntrl_bnJnt_2 3
+    400598: cntrl_bnJnt_2 4
+    400600: cntrl_bnJnt_2 5
+    400602: cntrl_bnJnt_2 6
+    400604: cntrl_bnJnt_2_grp
+    400606: cntrl_bnJnt_2_grp 1
+    400608: cntrl_bnJnt_2_grp 2
+    400610: cntrl_bnJnt_2_grp 3
+    400612: cntrl_bnJnt_2_grp 4
+    400614: cntrl_bnJnt_2_grp 5
+    400616: cntrl_bnJnt_2_grp 6
+    400618: cntrl_bnJnt_3
+    400620: cntrl_bnJnt_3 1
+    400622: cntrl_bnJnt_3 2
+    400624: cntrl_bnJnt_3 3
+    400626: cntrl_bnJnt_3 4
+    400628: cntrl_bnJnt_3 5
+    400630: cntrl_bnJnt_3 6
+    400632: cntrl_bnJnt_3_grp
+    400634: cntrl_bnJnt_3_grp 1
+    400636: cntrl_bnJnt_3_grp 2
+    400638: cntrl_bnJnt_3_grp 3
+    400640: cntrl_bnJnt_3_grp 4
+    400642: cntrl_bnJnt_3_grp 5
+    400644: cntrl_bnJnt_3_grp 6
+    400646: cntrl_bnJnt_4
+    400648: cntrl_bnJnt_4 1
+    400650: cntrl_bnJnt_4 2
+    400652: cntrl_bnJnt_4 3
+    400654: cntrl_bnJnt_4 4
+    400656: cntrl_bnJnt_4 5
+    400658: cntrl_bnJnt_4 6
+    400660: cntrl_bnJnt_4_grp
+    400662: cntrl_bnJnt_4_grp 1
+    400664: cntrl_bnJnt_4_grp 2
+    400666: cntrl_bnJnt_4_grp 3
+    400668: cntrl_bnJnt_4_grp 4
+    400670: cntrl_bnJnt_4_grp 5
+    400672: cntrl_bnJnt_4_grp 6
+    400674: cntrl_bnJnt_5
+    400676: cntrl_bnJnt_5 1
+    400678: cntrl_bnJnt_5 2
+    400680: cntrl_bnJnt_5 3
+    400682: cntrl_bnJnt_5 4
+    400684: cntrl_bnJnt_5 5
+    400686: cntrl_bnJnt_5 6
+    400688: cntrl_bnJnt_5_grp
+    400690: cntrl_bnJnt_5_grp 1
+    400692: cntrl_bnJnt_5_grp 2
+    400694: cntrl_bnJnt_5_grp 3
+    400696: cntrl_bnJnt_5_grp 4
+    400698: cntrl_bnJnt_5_grp 5
+    400700: cntrl_bnJnt_5_grp 6
+    400702: cntrl_bnJnt_6
+    400704: cntrl_bnJnt_6 1
+    400706: cntrl_bnJnt_6 2
+    400708: cntrl_bnJnt_6 3
+    400710: cntrl_bnJnt_6 4
+    400712: cntrl_bnJnt_6 5
+    400714: cntrl_bnJnt_6 6
+    400716: cntrl_bnJnt_6_grp
+    400718: cntrl_bnJnt_6_grp 1
+    400720: cntrl_bnJnt_6_grp 2
+    400722: cntrl_bnJnt_6_grp 3
+    400724: cntrl_bnJnt_6_grp 4
+    400726: cntrl_bnJnt_6_grp 5
+    400728: cntrl_bnJnt_6_grp 6
+    400730: cntrl_bnJnt_7
+    400732: cntrl_bnJnt_7 1
+    400734: cntrl_bnJnt_7 2
+    400736: cntrl_bnJnt_7 3
+    400738: cntrl_bnJnt_7 4
+    400740: cntrl_bnJnt_7 5
+    400742: cntrl_bnJnt_7 6
+    400744: cntrl_bnJnt_7_grp
+    400746: cntrl_bnJnt_7_grp 1
+    400748: cntrl_bnJnt_7_grp 2
+    400750: cntrl_bnJnt_7_grp 3
+    400752: cntrl_bnJnt_7_grp 4
+    400754: cntrl_bnJnt_7_grp 5
+    400756: cntrl_bnJnt_7_grp 6
+    400758: cntrl_bnJnt_8
+    400760: cntrl_bnJnt_8 1
+    400762: cntrl_bnJnt_8 2
+    400764: cntrl_bnJnt_8 3
+    400766: cntrl_bnJnt_8 4
+    400768: cntrl_bnJnt_8 5
+    400770: cntrl_bnJnt_8 6
+    400772: cntrl_bnJnt_8_grp
+    400774: cntrl_bnJnt_8_grp 1
+    400776: cntrl_bnJnt_8_grp 2
+    400778: cntrl_bnJnt_8_grp 3
+    400780: cntrl_bnJnt_8_grp 4
+    400782: cntrl_bnJnt_8_grp 5
+    400784: cntrl_bnJnt_8_grp 6
+    400786: cntrl_bnJnt_9
+    400788: cntrl_bnJnt_9 1
+    400790: cntrl_bnJnt_9 2
+    400792: cntrl_bnJnt_9 3
+    400794: cntrl_bnJnt_9 4
+    400796: cntrl_bnJnt_9 5
+    400798: cntrl_bnJnt_9 6
+    400800: cntrl_bnJnt_9_grp
+    400802: cntrl_bnJnt_9_grp 1
+    400804: cntrl_bnJnt_9_grp 2
+    400806: cntrl_bnJnt_9_grp 3
+    400808: cntrl_bnJnt_9_grp 4
+    400810: cntrl_bnJnt_9_grp 5
+    400812: cntrl_bnJnt_9_grp 6
+    400814: cntrl_bnRoot__grp_cnt_Lymphocytes
+    400816: cntrl_bnRoot_grp_Basophil
+    400818: cntrl_bnRoot_grp_Eosinophil
+    400820: cntrl_bnRoot_grp_Lymphocytes
+    400822: cntrl_bnRoot_grp_Monocyte
+    400824: cntrl_bnRoot_grp_Neutrophil
+    400826: Eosinophil_1
+    400828: group1
+    400830: group2
+    400832: group3
+    400834: group4
+    400836: group5
+    400838: group6
+    400840: group7
+    400842: Lymphocytes_1
+    400844: Lymphocytes_2
+    400846: Monocyte
+    400848: Monocyte 1
+    400850: Neutrophil
+    400852: Neutrophil 1
+    400854: Neutrophil 2
+    400856: //RootNode
+    400858: bacteria 1
+    400860: Basophil_1 1
+    400862: Eosinophil_1 1
+    400864: Lymphocytes_1 1
+    400866: Lymphocytes_2 1
+    400868: Monocyte 2
+    400870: Neutrophil 3
+    4300000: Monocyte
+    4300002: Neutrophil
+    4300004: Neutrophil
+    4300006: bacteria
+    4300008: Neutrophil
+    4300010: Monocyte
+    4300012: Lymphocytes_2
+    4300014: Basophil_1
+    4300016: Eosinophil_1
+    4300018: Lymphocytes_1
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: bacteria
+    13700002: Basophil_1
+    13700004: Eosinophil_1
+    13700006: Lymphocytes_1
+    13700008: Lymphocytes_2
+    13700010: Monocyte
+    13700012: Monocyte 1
+    13700014: Neutrophil
+    13700016: Neutrophil 1
+    13700018: Neutrophil 2
+    13700020: bacteria 1
+    13700022: Basophil_1 1
+    13700024: Eosinophil_1 1
+    13700026: Lymphocytes_1 1
+    13700028: Lymphocytes_2 1
+    13700030: Monocyte 2
+    13700032: Neutrophil 3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bacteria
+        weight: 1
+      - path: bacteria/bacteria 1
+        weight: 1
+      - path: Basophil_1
+        weight: 1
+      - path: Basophil_1/Basophil_1 1
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_0_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_0_grp/cntrl_bnJnt_0
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_0_grp/cntrl_bnJnt_0/bnJnt_0
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_1_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_1_grp/cntrl_bnJnt_1
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_1_grp/cntrl_bnJnt_1/bnJnt_1
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_2_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_2_grp/cntrl_bnJnt_2
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_2_grp/cntrl_bnJnt_2/bnJnt_2
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_3_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_3_grp/cntrl_bnJnt_3
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_3_grp/cntrl_bnJnt_3/bnJnt_3
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_4_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_4_grp/cntrl_bnJnt_4
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_4_grp/cntrl_bnJnt_4/bnJnt_4
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_5_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_5_grp/cntrl_bnJnt_5
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_5_grp/cntrl_bnJnt_5/bnJnt_5
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_6_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_6_grp/cntrl_bnJnt_6
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_6_grp/cntrl_bnJnt_6/bnJnt_6
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_7_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_7_grp/cntrl_bnJnt_7
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_7_grp/cntrl_bnJnt_7/bnJnt_7
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_8_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_8_grp/cntrl_bnJnt_8
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_8_grp/cntrl_bnJnt_8/bnJnt_8
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_9_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_9_grp/cntrl_bnJnt_9
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_9_grp/cntrl_bnJnt_9/bnJnt_9
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_10_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_10_grp/cntrl_bnJnt_10
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_10_grp/cntrl_bnJnt_10/bnJnt_10
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_11_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_11_grp/cntrl_bnJnt_11
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_11_grp/cntrl_bnJnt_11/bnJnt_11
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_12_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_12_grp/cntrl_bnJnt_12
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_12_grp/cntrl_bnJnt_12/bnJnt_12
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_13_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_13_grp/cntrl_bnJnt_13
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_13_grp/cntrl_bnJnt_13/bnJnt_13
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_14_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_14_grp/cntrl_bnJnt_14
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_14_grp/cntrl_bnJnt_14/bnJnt_14
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_15_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_15_grp/cntrl_bnJnt_15
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_15_grp/cntrl_bnJnt_15/bnJnt_15
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_16_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_16_grp/cntrl_bnJnt_16
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_16_grp/cntrl_bnJnt_16/bnJnt_16
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_17_grp
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_17_grp/cntrl_bnJnt_17
+        weight: 1
+      - path: cnt_bnRoot_0_Round_Bacteria_g/cnt_bnRoot_0_Round_Bacteria/bnRoot_/cntrl_bnJnt_17_grp/cntrl_bnJnt_17/bnJnt_17
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_0_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_0_grp
+          1/cntrl_bnJnt_0 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_0_grp
+          1/cntrl_bnJnt_0 1/bnJnt_0 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_1_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_1_grp
+          1/cntrl_bnJnt_1 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_1_grp
+          1/cntrl_bnJnt_1 1/bnJnt_1 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_2_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_2_grp
+          1/cntrl_bnJnt_2 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_2_grp
+          1/cntrl_bnJnt_2 1/bnJnt_2 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_3_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_3_grp
+          1/cntrl_bnJnt_3 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_3_grp
+          1/cntrl_bnJnt_3 1/bnJnt_3 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_4_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_4_grp
+          1/cntrl_bnJnt_4 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_4_grp
+          1/cntrl_bnJnt_4 1/bnJnt_4 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_5_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_5_grp
+          1/cntrl_bnJnt_5 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_5_grp
+          1/cntrl_bnJnt_5 1/bnJnt_5 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_6_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_6_grp
+          1/cntrl_bnJnt_6 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_6_grp
+          1/cntrl_bnJnt_6 1/bnJnt_6 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_7_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_7_grp
+          1/cntrl_bnJnt_7 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_7_grp
+          1/cntrl_bnJnt_7 1/bnJnt_7 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_8_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_8_grp
+          1/cntrl_bnJnt_8 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_8_grp
+          1/cntrl_bnJnt_8 1/bnJnt_8 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_9_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_9_grp
+          1/cntrl_bnJnt_9 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_9_grp
+          1/cntrl_bnJnt_9 1/bnJnt_9 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_10_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_10_grp
+          1/cntrl_bnJnt_10 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_10_grp
+          1/cntrl_bnJnt_10 1/bnJnt_10 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_11_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_11_grp
+          1/cntrl_bnJnt_11 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_11_grp
+          1/cntrl_bnJnt_11 1/bnJnt_11 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_12_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_12_grp
+          1/cntrl_bnJnt_12 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_12_grp
+          1/cntrl_bnJnt_12 1/bnJnt_12 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_13_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_13_grp
+          1/cntrl_bnJnt_13 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_13_grp
+          1/cntrl_bnJnt_13 1/bnJnt_13 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_14_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_14_grp
+          1/cntrl_bnJnt_14 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_14_grp
+          1/cntrl_bnJnt_14 1/bnJnt_14 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_15_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_15_grp
+          1/cntrl_bnJnt_15 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_15_grp
+          1/cntrl_bnJnt_15 1/bnJnt_15 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_16_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_16_grp
+          1/cntrl_bnJnt_16 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_16_grp
+          1/cntrl_bnJnt_16 1/bnJnt_16 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_17_grp
+          1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_17_grp
+          1/cntrl_bnJnt_17 1
+        weight: 1
+      - path: cntrl_bnRoot__grp_cnt_Lymphocytes/cnt_bnRoot_0_Lymphocytes/bnRoot_ 1/cntrl_bnJnt_17_grp
+          1/cntrl_bnJnt_17 1/bnJnt_17 1
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_0_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_0_grp
+          2/cntrl_bnJnt_0 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_0_grp
+          2/cntrl_bnJnt_0 2/bnJnt_0 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_1_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_1_grp
+          2/cntrl_bnJnt_1 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_1_grp
+          2/cntrl_bnJnt_1 2/bnJnt_1 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_2_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_2_grp
+          2/cntrl_bnJnt_2 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_2_grp
+          2/cntrl_bnJnt_2 2/bnJnt_2 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_3_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_3_grp
+          2/cntrl_bnJnt_3 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_3_grp
+          2/cntrl_bnJnt_3 2/bnJnt_3 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_4_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_4_grp
+          2/cntrl_bnJnt_4 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_4_grp
+          2/cntrl_bnJnt_4 2/bnJnt_4 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_5_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_5_grp
+          2/cntrl_bnJnt_5 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_5_grp
+          2/cntrl_bnJnt_5 2/bnJnt_5 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_6_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_6_grp
+          2/cntrl_bnJnt_6 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_6_grp
+          2/cntrl_bnJnt_6 2/bnJnt_6 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_7_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_7_grp
+          2/cntrl_bnJnt_7 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_7_grp
+          2/cntrl_bnJnt_7 2/bnJnt_7 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_8_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_8_grp
+          2/cntrl_bnJnt_8 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_8_grp
+          2/cntrl_bnJnt_8 2/bnJnt_8 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_9_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_9_grp
+          2/cntrl_bnJnt_9 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_9_grp
+          2/cntrl_bnJnt_9 2/bnJnt_9 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_10_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_10_grp
+          2/cntrl_bnJnt_10 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_10_grp
+          2/cntrl_bnJnt_10 2/bnJnt_10 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_11_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_11_grp
+          2/cntrl_bnJnt_11 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_11_grp
+          2/cntrl_bnJnt_11 2/bnJnt_11 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_12_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_12_grp
+          2/cntrl_bnJnt_12 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_12_grp
+          2/cntrl_bnJnt_12 2/bnJnt_12 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_13_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_13_grp
+          2/cntrl_bnJnt_13 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_13_grp
+          2/cntrl_bnJnt_13 2/bnJnt_13 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_14_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_14_grp
+          2/cntrl_bnJnt_14 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_14_grp
+          2/cntrl_bnJnt_14 2/bnJnt_14 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_15_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_15_grp
+          2/cntrl_bnJnt_15 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_15_grp
+          2/cntrl_bnJnt_15 2/bnJnt_15 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_16_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_16_grp
+          2/cntrl_bnJnt_16 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_16_grp
+          2/cntrl_bnJnt_16 2/bnJnt_16 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_17_grp
+          2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_17_grp
+          2/cntrl_bnJnt_17 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Basophil/cnt_bnRoot_0_Basophil/bnRoot_ 2/cntrl_bnJnt_17_grp
+          2/cntrl_bnJnt_17 2/bnJnt_17 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_0_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_0_grp
+          3/cntrl_bnJnt_0 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_0_grp
+          3/cntrl_bnJnt_0 3/bnJnt_0 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_1_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_1_grp
+          3/cntrl_bnJnt_1 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_1_grp
+          3/cntrl_bnJnt_1 3/bnJnt_1 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_2_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_2_grp
+          3/cntrl_bnJnt_2 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_2_grp
+          3/cntrl_bnJnt_2 3/bnJnt_2 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_3_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_3_grp
+          3/cntrl_bnJnt_3 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_3_grp
+          3/cntrl_bnJnt_3 3/bnJnt_3 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_4_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_4_grp
+          3/cntrl_bnJnt_4 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_4_grp
+          3/cntrl_bnJnt_4 3/bnJnt_4 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_5_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_5_grp
+          3/cntrl_bnJnt_5 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_5_grp
+          3/cntrl_bnJnt_5 3/bnJnt_5 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_6_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_6_grp
+          3/cntrl_bnJnt_6 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_6_grp
+          3/cntrl_bnJnt_6 3/bnJnt_6 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_7_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_7_grp
+          3/cntrl_bnJnt_7 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_7_grp
+          3/cntrl_bnJnt_7 3/bnJnt_7 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_8_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_8_grp
+          3/cntrl_bnJnt_8 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_8_grp
+          3/cntrl_bnJnt_8 3/bnJnt_8 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_9_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_9_grp
+          3/cntrl_bnJnt_9 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_9_grp
+          3/cntrl_bnJnt_9 3/bnJnt_9 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_10_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_10_grp
+          3/cntrl_bnJnt_10 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_10_grp
+          3/cntrl_bnJnt_10 3/bnJnt_10 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_11_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_11_grp
+          3/cntrl_bnJnt_11 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_11_grp
+          3/cntrl_bnJnt_11 3/bnJnt_11 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_12_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_12_grp
+          3/cntrl_bnJnt_12 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_12_grp
+          3/cntrl_bnJnt_12 3/bnJnt_12 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_13_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_13_grp
+          3/cntrl_bnJnt_13 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_13_grp
+          3/cntrl_bnJnt_13 3/bnJnt_13 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_14_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_14_grp
+          3/cntrl_bnJnt_14 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_14_grp
+          3/cntrl_bnJnt_14 3/bnJnt_14 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_15_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_15_grp
+          3/cntrl_bnJnt_15 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_15_grp
+          3/cntrl_bnJnt_15 3/bnJnt_15 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_16_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_16_grp
+          3/cntrl_bnJnt_16 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_16_grp
+          3/cntrl_bnJnt_16 3/bnJnt_16 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_17_grp
+          3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_17_grp
+          3/cntrl_bnJnt_17 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Eosinophil/cnt_bnRoot_0_Eosinophil/bnRoot_ 3/cntrl_bnJnt_17_grp
+          3/cntrl_bnJnt_17 3/bnJnt_17 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_0_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_0_grp
+          4/cntrl_bnJnt_0 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_0_grp
+          4/cntrl_bnJnt_0 4/bnJnt_0 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_1_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_1_grp
+          4/cntrl_bnJnt_1 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_1_grp
+          4/cntrl_bnJnt_1 4/bnJnt_1 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_2_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_2_grp
+          4/cntrl_bnJnt_2 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_2_grp
+          4/cntrl_bnJnt_2 4/bnJnt_2 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_3_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_3_grp
+          4/cntrl_bnJnt_3 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_3_grp
+          4/cntrl_bnJnt_3 4/bnJnt_3 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_4_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_4_grp
+          4/cntrl_bnJnt_4 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_4_grp
+          4/cntrl_bnJnt_4 4/bnJnt_4 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_5_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_5_grp
+          4/cntrl_bnJnt_5 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_5_grp
+          4/cntrl_bnJnt_5 4/bnJnt_5 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_6_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_6_grp
+          4/cntrl_bnJnt_6 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_6_grp
+          4/cntrl_bnJnt_6 4/bnJnt_6 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_7_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_7_grp
+          4/cntrl_bnJnt_7 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_7_grp
+          4/cntrl_bnJnt_7 4/bnJnt_7 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_8_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_8_grp
+          4/cntrl_bnJnt_8 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_8_grp
+          4/cntrl_bnJnt_8 4/bnJnt_8 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_9_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_9_grp
+          4/cntrl_bnJnt_9 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_9_grp
+          4/cntrl_bnJnt_9 4/bnJnt_9 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_10_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_10_grp
+          4/cntrl_bnJnt_10 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_10_grp
+          4/cntrl_bnJnt_10 4/bnJnt_10 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_11_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_11_grp
+          4/cntrl_bnJnt_11 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_11_grp
+          4/cntrl_bnJnt_11 4/bnJnt_11 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_12_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_12_grp
+          4/cntrl_bnJnt_12 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_12_grp
+          4/cntrl_bnJnt_12 4/bnJnt_12 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_13_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_13_grp
+          4/cntrl_bnJnt_13 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_13_grp
+          4/cntrl_bnJnt_13 4/bnJnt_13 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_14_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_14_grp
+          4/cntrl_bnJnt_14 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_14_grp
+          4/cntrl_bnJnt_14 4/bnJnt_14 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_15_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_15_grp
+          4/cntrl_bnJnt_15 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_15_grp
+          4/cntrl_bnJnt_15 4/bnJnt_15 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_16_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_16_grp
+          4/cntrl_bnJnt_16 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_16_grp
+          4/cntrl_bnJnt_16 4/bnJnt_16 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_17_grp
+          4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_17_grp
+          4/cntrl_bnJnt_17 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/cnt_bnRoot_0_Lymphocytes 1/bnRoot_ 4/cntrl_bnJnt_17_grp
+          4/cntrl_bnJnt_17 4/bnJnt_17 4
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/Monocyte 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Lymphocytes/Neutrophil 2
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_0_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_0_grp
+          5/cntrl_bnJnt_0 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_0_grp
+          5/cntrl_bnJnt_0 5/bnJnt_0 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_1_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_1_grp
+          5/cntrl_bnJnt_1 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_1_grp
+          5/cntrl_bnJnt_1 5/bnJnt_1 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_2_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_2_grp
+          5/cntrl_bnJnt_2 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_2_grp
+          5/cntrl_bnJnt_2 5/bnJnt_2 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_3_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_3_grp
+          5/cntrl_bnJnt_3 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_3_grp
+          5/cntrl_bnJnt_3 5/bnJnt_3 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_4_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_4_grp
+          5/cntrl_bnJnt_4 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_4_grp
+          5/cntrl_bnJnt_4 5/bnJnt_4 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_5_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_5_grp
+          5/cntrl_bnJnt_5 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_5_grp
+          5/cntrl_bnJnt_5 5/bnJnt_5 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_6_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_6_grp
+          5/cntrl_bnJnt_6 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_6_grp
+          5/cntrl_bnJnt_6 5/bnJnt_6 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_7_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_7_grp
+          5/cntrl_bnJnt_7 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_7_grp
+          5/cntrl_bnJnt_7 5/bnJnt_7 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_8_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_8_grp
+          5/cntrl_bnJnt_8 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_8_grp
+          5/cntrl_bnJnt_8 5/bnJnt_8 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_8_grp
+          5/cntrl_bnJnt_8 5/bnJnt_8 5/bn_wing_left_01
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_8_grp
+          5/cntrl_bnJnt_8 5/bnJnt_8 5/bn_wing_left_01/bn_wing_left_02
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_8_grp
+          5/cntrl_bnJnt_8 5/bnJnt_8 5/bn_wing_left_01/bn_wing_left_02/be_wing_left_01
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_8_grp
+          5/cntrl_bnJnt_8 5/bnJnt_8 5/bn_wing_right_01
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_8_grp
+          5/cntrl_bnJnt_8 5/bnJnt_8 5/bn_wing_right_01/bn_wing_right_02
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_8_grp
+          5/cntrl_bnJnt_8 5/bnJnt_8 5/bn_wing_right_01/bn_wing_right_02/be_wing_right_01
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_9_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_9_grp
+          5/cntrl_bnJnt_9 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_9_grp
+          5/cntrl_bnJnt_9 5/bnJnt_9 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_10_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_10_grp
+          5/cntrl_bnJnt_10 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_10_grp
+          5/cntrl_bnJnt_10 5/bnJnt_10 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_11_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_11_grp
+          5/cntrl_bnJnt_11 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_11_grp
+          5/cntrl_bnJnt_11 5/bnJnt_11 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_12_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_12_grp
+          5/cntrl_bnJnt_12 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_12_grp
+          5/cntrl_bnJnt_12 5/bnJnt_12 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_13_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_13_grp
+          5/cntrl_bnJnt_13 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_13_grp
+          5/cntrl_bnJnt_13 5/bnJnt_13 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_14_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_14_grp
+          5/cntrl_bnJnt_14 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_14_grp
+          5/cntrl_bnJnt_14 5/bnJnt_14 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_15_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_15_grp
+          5/cntrl_bnJnt_15 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_15_grp
+          5/cntrl_bnJnt_15 5/bnJnt_15 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_16_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_16_grp
+          5/cntrl_bnJnt_16 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_16_grp
+          5/cntrl_bnJnt_16 5/bnJnt_16 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_17_grp
+          5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_17_grp
+          5/cntrl_bnJnt_17 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/cnt_bnRoot_0_Monocyte/bnRoot_ 5/cntrl_bnJnt_17_grp
+          5/cntrl_bnJnt_17 5/bnJnt_17 5
+        weight: 1
+      - path: cntrl_bnRoot_grp_Monocyte/Neutrophil 3
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_0_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_0_grp
+          6/cntrl_bnJnt_0 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_0_grp
+          6/cntrl_bnJnt_0 6/bnJnt_0 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_1_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_1_grp
+          6/cntrl_bnJnt_1 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_1_grp
+          6/cntrl_bnJnt_1 6/bnJnt_1 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_2_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_2_grp
+          6/cntrl_bnJnt_2 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_2_grp
+          6/cntrl_bnJnt_2 6/bnJnt_2 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_3_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_3_grp
+          6/cntrl_bnJnt_3 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_3_grp
+          6/cntrl_bnJnt_3 6/bnJnt_3 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_4_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_4_grp
+          6/cntrl_bnJnt_4 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_4_grp
+          6/cntrl_bnJnt_4 6/bnJnt_4 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_5_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_5_grp
+          6/cntrl_bnJnt_5 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_5_grp
+          6/cntrl_bnJnt_5 6/bnJnt_5 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_6_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_6_grp
+          6/cntrl_bnJnt_6 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_6_grp
+          6/cntrl_bnJnt_6 6/bnJnt_6 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_7_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_7_grp
+          6/cntrl_bnJnt_7 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_7_grp
+          6/cntrl_bnJnt_7 6/bnJnt_7 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_8_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_8_grp
+          6/cntrl_bnJnt_8 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_8_grp
+          6/cntrl_bnJnt_8 6/bnJnt_8 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_8_grp
+          6/cntrl_bnJnt_8 6/bnJnt_8 6/bn_wing_left_01 1
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_8_grp
+          6/cntrl_bnJnt_8 6/bnJnt_8 6/bn_wing_left_01 1/bn_wing_left_02 1
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_8_grp
+          6/cntrl_bnJnt_8 6/bnJnt_8 6/bn_wing_left_01 1/bn_wing_left_02 1/be_wing_left_01
+          1
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_8_grp
+          6/cntrl_bnJnt_8 6/bnJnt_8 6/bn_wing_right_01 1
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_8_grp
+          6/cntrl_bnJnt_8 6/bnJnt_8 6/bn_wing_right_01 1/bn_wing_right_02 1
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_8_grp
+          6/cntrl_bnJnt_8 6/bnJnt_8 6/bn_wing_right_01 1/bn_wing_right_02 1/be_wing_right_01
+          1
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_9_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_9_grp
+          6/cntrl_bnJnt_9 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_9_grp
+          6/cntrl_bnJnt_9 6/bnJnt_9 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_10_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_10_grp
+          6/cntrl_bnJnt_10 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_10_grp
+          6/cntrl_bnJnt_10 6/bnJnt_10 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_11_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_11_grp
+          6/cntrl_bnJnt_11 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_11_grp
+          6/cntrl_bnJnt_11 6/bnJnt_11 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_12_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_12_grp
+          6/cntrl_bnJnt_12 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_12_grp
+          6/cntrl_bnJnt_12 6/bnJnt_12 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_13_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_13_grp
+          6/cntrl_bnJnt_13 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_13_grp
+          6/cntrl_bnJnt_13 6/bnJnt_13 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_14_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_14_grp
+          6/cntrl_bnJnt_14 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_14_grp
+          6/cntrl_bnJnt_14 6/bnJnt_14 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_15_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_15_grp
+          6/cntrl_bnJnt_15 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_15_grp
+          6/cntrl_bnJnt_15 6/bnJnt_15 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_16_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_16_grp
+          6/cntrl_bnJnt_16 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_16_grp
+          6/cntrl_bnJnt_16 6/bnJnt_16 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_17_grp
+          6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_17_grp
+          6/cntrl_bnJnt_17 6
+        weight: 1
+      - path: cntrl_bnRoot_grp_Neutrophil/cnt_bnRoot_0_Neutrophil/bnRoot_ 6/cntrl_bnJnt_17_grp
+          6/cntrl_bnJnt_17 6/bnJnt_17 6
+        weight: 1
+      - path: Eosinophil_1
+        weight: 1
+      - path: Eosinophil_1/Eosinophil_1 1
+        weight: 1
+      - path: Lymphocytes_1
+        weight: 1
+      - path: Lymphocytes_1/Lymphocytes_1 1
+        weight: 1
+      - path: Lymphocytes_2
+        weight: 1
+      - path: Lymphocytes_2/Lymphocytes_2 1
+        weight: 1
+      - path: Monocyte
+        weight: 1
+      - path: Monocyte/Monocyte 1
+        weight: 1
+      - path: Neutrophil
+        weight: 1
+      - path: Neutrophil/Neutrophil 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
