@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BloodCell\Script\Level2Controller.cs">
+    <Files>
+      <File FileName="Assets\BloodCell\Script\ConstantTranslate.cs" Line="22" Column="18" />
+      <File FileName="Assets\BloodCell\Script\Level1Controller.cs" Line="52" Column="7" />
+      <File FileName="Assets\BloodCell\Script\CanvasController.cs" Line="172" Column="4" />
+      <File FileName="Assets\GoogleVR\Scripts\EventSystem\GvrPointerPhysicsRaycaster.cs" Line="1" Column="1" />
+      <File FileName="Assets\CurvedUI Menu\Scripts\MenuAdjust.cs" Line="6" Column="29" />
+      <File FileName="Assets\CurvedUI Menu\Editor\MenuAdjustEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\Level2Controller.cs" Line="95" Column="30" />
+      <File FileName="Assets\BloodCell\Script\shootingCell.cs" Line="53" Column="75" />
+      <File FileName="Assets\BloodCell\Script\Genrate_Tunnal2.cs" Line="10" Column="3" />
+      <File FileName="Assets\BloodCell\Script\Genrate_Tunnal.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\HighLight.cs" Line="25" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

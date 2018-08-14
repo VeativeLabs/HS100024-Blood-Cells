@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Allinone_VRHeaset" xml:space="preserve">
+		<value>سماعة رأس كلّ في واحد بتقنية الواقع الافتراضي.</value>
+	</data>
+	<data name="bacteria_Dialoge" xml:space="preserve">
+		<value>هنا تم اكتشاف البكتيريا التي لم تتمكن الخلايا 
+المحببة من تدميرها. قم بتدميرها بواسطة 
+الخلايا غير المحببة من خلال عملية البلعمة. </value>
+	</data>
+	<data name="Basophil" xml:space="preserve">
+		<value>خلية دم بيضاء قاعدية.</value>
+	</data>
+	<data name="basophil_Button" xml:space="preserve">
+		<value>خلية دم بيضاء 
+قاعدية.</value>
+	</data>
+	<data name="bg_mark" xml:space="preserve">
+		<value>اتبع التعليمات لإكمال النشاط.
+ستحصل على خمس نقاط إذا قمت بالإجابة الصحيحة في المحاولة الأولى، وثلاث نقاط في المحاولة الثانية، ونقطتين في المحاولة الثالثة. </value>
+	</data>
+	<data name="Bullets" xml:space="preserve">
+		<value>خلايا الدم.</value>
+	</data>
+	<data name="ButtonIntroBg" xml:space="preserve">
+		<value>يوجد بنظام التحكم زر "موافق"، وزر "عودة"، الذي يعمل أيضًا كزر تشغيل عند إطالة الضغط عليه. كما يوجد زر "القائمة"، الذي يعمل أيضًا كزر إيقاف عند إطالة الضغط عليه. وكذلك يوجد عصًا للتحكم.</value>
+	</data>
+	<data name="C_Btn_ActivityMenu" xml:space="preserve">
+		<value>قائمة النشاط</value>
+	</data>
+	<data name="C_Btn_Close" xml:space="preserve">
+		<value />
+	</data>
+	<data name="C_Btn_No" xml:space="preserve">
+		<value>لا</value>
+	</data>
+	<data name="C_Btn_Quit" xml:space="preserve">
+		<value>خروج</value>
+	</data>
+	<data name="C_Btn_RestartActivity" xml:space="preserve">
+		<value>إعادة تشغيل النشاط</value>
+	</data>
+	<data name="C_Btn_Resume" xml:space="preserve">
+		<value>استكمال</value>
+	</data>
+	<data name="C_Btn_SyncToServer" xml:space="preserve">
+		<value />
+	</data>
+	<data name="C_Btn_Veiw LO" xml:space="preserve">
+		<value>عرض أهداف التعلم</value>
+	</data>
+	<data name="C_Btn_Yes" xml:space="preserve">
+		<value>نعم</value>
+	</data>
+	<data name="C_Inst_ActivityComplete" xml:space="preserve">
+		<value>لقد أكملت هذا النشاط. اختر "موافق" للعودة إلى القائمة والذهاب للنشاط التالي</value>
+	</data>
+	<data name="C_Inst_Assesment_Complete" xml:space="preserve">
+		<value>لقد أكملت التقييم. 
+وها هو مجموع نقاطك</value>
+	</data>
+	<data name="C_Inst_Assesment_GreaterThan60%" xml:space="preserve">
+		<value>مجموع نقاطك جيد لقد أكملت الوحدة! اختر "موافق" 
+للعودة إلى القائمة حيث يمكنك الخروج</value>
+	</data>
+	<data name="C_Inst_Assesment_LessThan60%" xml:space="preserve">
+		<value>مجموع نقاطك أقل من 60%. بعد الرجوع إلى 
+القائمة يمكنك المحاولة مرة أخرى لتحسين 
+مجموع نقاطك أو يمكن الخروج</value>
+	</data>
+	<data name="C_Inst_AssesmentScoringRule" xml:space="preserve">
+		<value>اتبع التعليمات للقيام بالتقييم والحصول على نقاط. 
+سوف تحصل على النقاط كاملة عند الإجابة بشكل صحيح من 
+المحاولة الأولى، ونقاط أقل إذا احتجت للمحاولة مرة أخرى، ولن 
+تحصل على أي نقاط إذا استخدمت المساعدة.</value>
+	</data>
+	<data name="C_Inst_CheckNetworkConnection" xml:space="preserve">
+		<value>من فضلك تحقق من اتصال الشبكة أو حاول مرة أخرى</value>
+	</data>
+	<data name="C_Inst_GreaterThan60%_LastLevel" xml:space="preserve">
+		<value>مجموع نقاطك جيد! اختر "موافق" للعودة إلى القائمة حيث يمكنك الخروج</value>
+	</data>
+	<data name="C_Inst_LessThan60%" xml:space="preserve">
+		<value>مجموع نقاطك أقل من 60%. بعد الرجوع إلى القائمة، يمكنك لعب النشاط مرة أخرى لتحسين مجموع نقاطك.</value>
+	</data>
+	<data name="C_Inst_LevelComplete" xml:space="preserve">
+		<value>لقد أكملت هذا النشاط. اختر "موافق" للرجوع 
+للقائمة والذهاب للنشاط التالي.</value>
+	</data>
+	<data name="C_Inst_QuitMessage" xml:space="preserve">
+		<value>هل أنت متأكد أنك تريد الخروج؟</value>
+	</data>
+	<data name="C_Inst_RightOption" xml:space="preserve">
+		<value />
+	</data>
+	<data name="C_Inst_ScoreDisplay" xml:space="preserve">
+		<value>لقد أكملت هذا النشاط وها هو مجموع نقاطك</value>
+	</data>
+	<data name="C_Inst_ScoringRule" xml:space="preserve">
+		<value>اتبع التعليمات لتنفيذ النشاط والحصول على النقاط. ستحصل على النقاط كاملة إذا كنت على صواب في المحاولة الأولى, وستحصل على نقاط أقل إذا احتجت للمحاولة مرة أخرى, ولن تحصل على أي نقاط إذا استعنت بالمساعدة.</value>
+	</data>
+	<data name="C_TryAgain1" xml:space="preserve">
+		<value>حاول مرة أخرى</value>
+	</data>
+	<data name="C_TryAgain2" xml:space="preserve">
+		<value>هذه ليست الإجابة.</value>
+	</data>
+	<data name="C_TryAgain3" xml:space="preserve">
+		<value>الإجابة ليست دقيقة</value>
+	</data>
+	<data name="C_WellDone1" xml:space="preserve">
+		<value>أحسنت!</value>
+	</data>
+	<data name="C_WellDone2" xml:space="preserve">
+		<value>إجابة صحيحة!</value>
+	</data>
+	<data name="C_WellDone3" xml:space="preserve">
+		<value>صحيح!</value>
+	</data>
+	<data name="Choose_Language" xml:space="preserve">
+		<value>اختر اللغة.</value>
+	</data>
+	<data name="ClickMe" xml:space="preserve">
+		<value>اضغط هنا.</value>
+	</data>
+	<data name="clickOnLable" xml:space="preserve">
+		<value>اضغط على الملصق لتعرف 
+المزيد عنه. </value>
+	</data>
+	<data name="ClickOnLoad" xml:space="preserve">
+		<value>اضغط على "ملء" للمتابعة. </value>
+	</data>
+	<data name="Close" xml:space="preserve">
+		<value>اغلق</value>
+	</data>
+	<data name="CollectBasophil" xml:space="preserve">
+		<value>عليك تجميع اثنين من خلايا 
+الدم البيضاء القاعدية.</value>
+	</data>
+	<data name="CollectEosinophil" xml:space="preserve">
+		<value>عليك تجميع اثنين من خلايا 
+الدم البيضاء الحامضية.</value>
+	</data>
+	<data name="CollectLymphocyte" xml:space="preserve">
+		<value>عليك تجميع اثنين من خلايا 
+الدم البيضاء الليمفاوية.</value>
+	</data>
+	<data name="CollectMonocyte" xml:space="preserve">
+		<value>عليك تجميع اثنين من خلايا 
+الدم البيضاء وحيدة النواة.</value>
+	</data>
+	<data name="CollectNeutrophil" xml:space="preserve">
+		<value>عليك تجميع اثنين من خلايا 
+الدم البيضاء المتعادلة.</value>
+	</data>
+	<data name="CollectPletellet" xml:space="preserve">
+		<value>عليك تجميع اثنين من 
+الصفائح الدموية. </value>
+	</data>
+	<data name="CollectRBc" xml:space="preserve">
+		<value>عليك تجميع اثنين من 
+خلايا الدم الحمراء.</value>
+	</data>
+	<data name="completed _simulation." xml:space="preserve">
+		<value>لقد أتممت المحاكاة بنجاح.</value>
+	</data>
+	<data name="Continue" xml:space="preserve">
+		<value>استمرار.</value>
+	</data>
+	<data name="correctBulletchoos" xml:space="preserve">
+		<value>اضغط علي الوعاء الدموي لحقنه 
+بخلايا الدم المناسبة </value>
+	</data>
+	<data name="CutVessel_Dialoge" xml:space="preserve">
+		<value>يا للهول! حدث قطع في الأوعية الدموية أثناء 
+مكافحة العدوى، أصلحها بمساعدة خلايا 
+الدم اللازمة للتجلط.</value>
+	</data>
+	<data name="DiscriptionBasophil" xml:space="preserve">
+		<value>هي نوع من الخلايا المحببة، ذات نواة ثنائية الفصوص، 
+تأخذ شكل حرف )U( ، وبها قليل من السيتوبلازم، 
+وهي المسؤولة عن تفاعلات الحساسية والالتهابات
+ أو ردود الأفعال.</value>
+	</data>
+	<data name="DiscriptionEosinophil" xml:space="preserve">
+		<value>هي نوع من الخلايا المحببة، ذات نواة ثنائية 
+الفصوص. تقوم تلك الخلايا بقتل الطفيليات، 
+وتدمير بعض المواد المسببة للالتهاب في 
+المناطق المصابة.</value>
+	</data>
+	<data name="DiscriptionLymphocyte" xml:space="preserve">
+		<value>هي نوع من الخلايا غير المحببة، ذات نواة كبيرة 
+مستديرة، وبها قليل من السيتوبلازم، وهي توفر 
+المناعة اللازمة للجسم.</value>
+	</data>
+	<data name="DiscriptionMonocyte" xml:space="preserve">
+		<value>هي نوع من الخلايا غير المحببة، ذات نواة كبيرة غير 
+منتظمة الشكل. تقوم تلك الخلايا بابتلاع الخلايا 
+الميتة والأجسام المغيرة (الغريبة) عن طريق البلعمة.</value>
+	</data>
+	<data name="DiscriptionNeutrophil" xml:space="preserve">
+		<value>هي نوع من الخلايا المحببة، ذات نواة متعددة 
+الفصوص، تقوم بمهاجمة البكتيريا أو الفيروسات 
+التي تغزو الجسم عن طريق عملية البلعمة.</value>
+	</data>
+	<data name="DiscriptionPlatelet" xml:space="preserve">
+		<value>هي شظايا خلوية صغيرة عديمة النواة، تلعب 
+دورًا مهمًّا في تجلط الدم أو وقف النزيف.</value>
+	</data>
+	<data name="DiscriptionRBC" xml:space="preserve">
+		<value>هي خلية مقعرة الوجهين، تتخذ شكل القرص، 
+وينقصها وجود نواة بها، تقوم بحمل الأكسجين 
+من الرئتين إلى خلايا الجسم. </value>
+	</data>
+	<data name="DragDropMsg" xml:space="preserve">
+		<value>لكي تلتقط جسمًا ما، عليك تحديد مكانه، ثم اضغط باستمرار على زر "موافق". أَدِرْ رأسك يمينًا أو يسارًا لتحرك الجسم، ثم ارفع يديك عن زر "موافق" لتُسقطه.  </value>
+	</data>
+	<data name="end_forgnbacteria_Dialoge" xml:space="preserve">
+		<value>أحسنت! لقد عالجت أعراض العدوى بنجاح.</value>
+	</data>
+	<data name="end_immunity_Dialoge" xml:space="preserve">
+		<value>أحسنت!
+لقد حافظت على المناعة عند 
+مستوى مناسب.</value>
+	</data>
+	<data name="end_part0_Dialoge (1)" xml:space="preserve">
+		<value>أحسنت!
+تم الحفاظ على مستوى الدم عند مستوى مناسب.</value>
+	</data>
+	<data name="end_part1_Dialoge" xml:space="preserve">
+		<value>أحسنت!</value>
+	</data>
+	<data name="EndLevel1_Lable" xml:space="preserve">
+		<value>أحسنت!
+لقد قمت بتجميع جميع أنواع خلايا الدم بنجاح.
+اضغط على علامة التبويب للاختيار.</value>
+	</data>
+	<data name="EndLevel1_Lable0" xml:space="preserve">
+		<value>ممتاز!
+لقد أنهيت جميع مستويات هذه المحاكاة بنجاح.
+اضغط على زر "إعادة التشغيل" لتلعب مرة أخرى.</value>
+	</data>
+	<data name="Eosinophil" xml:space="preserve">
+		<value>خلايا الدم البيضاء الحامضية.</value>
+	</data>
+	<data name="eosinophil_Button" xml:space="preserve">
+		<value>خلايا الدم البيضاء 
+الحامضية.</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>خروج.</value>
+	</data>
+	<data name="ExitMsg" xml:space="preserve">
+		<value>اضغط على زر "العودة" للرجوع للقائمة السابقة.</value>
+	</data>
+	<data name="firstMesseg" xml:space="preserve">
+		<value>اضغط على خلايا الدم لعرض قائمة الخلايا. </value>
+	</data>
+	<data name="Greenbacteria_Dialoge" xml:space="preserve">
+		<value>لقد وصلت إلى منطقة  البكتيريا الضارة.
+يمكنك تدميرها فقط من خلال البلعمة عن 
+طريق الخلايا المحببة.</value>
+	</data>
+	<data name="Home" xml:space="preserve">
+		<value> الرئيسة.</value>
+	</data>
+	<data name="ImmunityLow_Dialoge" xml:space="preserve">
+		<value>مستوى مناعة الجسم ينخفض.
+قم بملء المنطقة بخلايا الدم المسؤولة 
+عن زيادة المناعة.</value>
+	</data>
+	<data name="Infection_Dialoge" xml:space="preserve">
+		<value>تم اكتشاف مواد معدية معينة بمجرى الدم، 
+قم بحقن هذه المنطقة بخلايا الدم؛ 
+لتخفف من أعراض هذه العدوى.</value>
+	</data>
+	<data name="Inst_LevelComplete" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Label off" xml:space="preserve">
+		<value>تعطيل الملصقات.</value>
+	</data>
+	<data name="Label on" xml:space="preserve">
+		<value>تفعيل الملصقات.</value>
+	</data>
+	<data name="LearningOutcomes" xml:space="preserve">
+		<value>نواتج التعلم:
+بعد اجتياز هذه المحاكاة، ستتمكن من:
+● التعرف على الأنواع المختلفة لخلايا الدم.
+● وصف شكل الأنواع المختلفة لخلايا الدم.
+● توضيح وظيفة كل نوع من خلايا الدم.</value>
+	</data>
+	<data name="Level1" xml:space="preserve">
+		<value>أنواع خلايا الدم.</value>
+	</data>
+	<data name="Level2" xml:space="preserve">
+		<value>قيم معلوماتك</value>
+	</data>
+	<data name="Level20" xml:space="preserve">
+		<value>إعادة التشغيل.</value>
+	</data>
+	<data name="Level3" xml:space="preserve">
+		<value>المستوى 3.</value>
+	</data>
+	<data name="LoadButton" xml:space="preserve">
+		<value>ملء.</value>
+	</data>
+	<data name="LookAroundMsg" xml:space="preserve">
+		<value>يمكنك تحريك رأسك يمينًا أو يسارًا؛ لتنظر لما حولك، أو لتغيِّر اتجاه حركتك.</value>
+	</data>
+	<data name="LowOxygenArea_Dialoge" xml:space="preserve">
+		<value>هناك عقبة في طريقك.
+أنت في منطقة فقيرة الأكسجين، املأ 
+المنطقة بخلايا الدم المحمَّلة بالأكسجين.</value>
+	</data>
+	<data name="Lymphocyte" xml:space="preserve">
+		<value>خلايا دم بيضاء ليمفاوية.</value>
+	</data>
+	<data name="lymphocyte_Button" xml:space="preserve">
+		<value>خلايا دم بيضاء 
+ليمفاوية.</value>
+	</data>
+	<data name="Menu" xml:space="preserve">
+		<value>القائمة.</value>
+	</data>
+	<data name="Monocyte" xml:space="preserve">
+		<value>خلايا دم بيضاء وحيدة النواة.</value>
+	</data>
+	<data name="monocyte_Button" xml:space="preserve">
+		<value>خلايا دم بيضاء 
+وحيدة النواة.</value>
+	</data>
+	<data name="MoreBullets" xml:space="preserve">
+		<value>قم بحقن خلايا أكثر لإكمال عملية الالتئام. </value>
+	</data>
+	<data name="MoveForwardMsg" xml:space="preserve">
+		<value>حرك عصا التحكم إلى الأمام أو الخلف للذَّهاب في هذا الاتجاه.</value>
+	</data>
+	<data name="Neutrophil" xml:space="preserve">
+		<value>خلايا دم بيضاء متعادلة.</value>
+	</data>
+	<data name="neutrophil _Button" xml:space="preserve">
+		<value>خلايا دم بيضاء 
+متعادلة.</value>
+	</data>
+	<data name="NotBasophil" xml:space="preserve">
+		<value>حاول مرة أخرى، هذه ليست 
+خلية دم بيضاء قاعدية.</value>
+	</data>
+	<data name="NotEosinophil" xml:space="preserve">
+		<value>حاول مرة أخرى، هذه ليست 
+خلية دم بيضاء حامضية.</value>
+	</data>
+	<data name="NotLymphocyte" xml:space="preserve">
+		<value>حاول مرة أخرى، هذه ليست 
+خلية دم بيضاء ليمفاوية.</value>
+	</data>
+	<data name="NotMonocyte" xml:space="preserve">
+		<value>حاول مرة أخرى، هذه ليست 
+خلية دم بيضاء وحيدة النواة.</value>
+	</data>
+	<data name="NotNeutrophil" xml:space="preserve">
+		<value>حاول مرة أخرى، هذه ليست 
+خلية دم بيضاء متعادلة.</value>
+	</data>
+	<data name="NotPlatellets" xml:space="preserve">
+		<value>حاول مرة أخرى، هذه ليست 
+صفيحة دموية.</value>
+	</data>
+	<data name="NotRBCs" xml:space="preserve">
+		<value>حاول مرة أخرى، هذه ليست 
+خلية دم حمراء.</value>
+	</data>
+	<data name="notThis" xml:space="preserve">
+		<value />
+	</data>
+	<data name="NumberOfCell" xml:space="preserve">
+		<value>عليك عرض 7 أنواع أخرى 
+من خلايا الدم.</value>
+	</data>
+	<data name="NumberOfCell1" xml:space="preserve">
+		<value>عليك مشاهدة  ست خلايا 
+أخرى من خلايا الدم.</value>
+	</data>
+	<data name="NumberOfCell2" xml:space="preserve">
+		<value>عليك مشاهدة خمس خلايا 
+أخرى من خلايا الدم.</value>
+	</data>
+	<data name="NumberOfCell3" xml:space="preserve">
+		<value>عليك مشاهدة أربع خلايا 
+أخرى من خلايا الدم. </value>
+	</data>
+	<data name="NumberOfCell4" xml:space="preserve">
+		<value>عليك مشاهدة ثلاث خلايا 
+أخرى من خلايا الدم.</value>
+	</data>
+	<data name="NumberOfCell5" xml:space="preserve">
+		<value>عليك مشاهدة خليتين 
+أخريين من خلايا الدم. </value>
+	</data>
+	<data name="NumberOfCell6" xml:space="preserve">
+		<value>عليك مشاهدة خلية أخرى 
+من خلايا الدم.</value>
+	</data>
+	<data name="Objective" xml:space="preserve">
+		<value>هدف.</value>
+	</data>
+	<data name="Objective_Content" xml:space="preserve">
+		<value>أهداف التعلم:
+
+بانتهائك من هذه الوحدة، ستكون قادرًا على أن:
+● تعد قائمة بالأنواع المختلفة لخلايا الدم.
+● توضح تركيب خلايا الدم المختلفة. 
+● توضح وظيفة الأنواع المختلفة لخلايا الدم.</value>
+	</data>
+	<data name="ok" xml:space="preserve">
+		<value>موافق.</value>
+	</data>
+	<data name="OnLoad" xml:space="preserve">
+		<value>اضغط على المكبس لملء المنطقة 
+بخلايا الدم</value>
+	</data>
+	<data name="paracyte_Dialoge" xml:space="preserve">
+		<value>هذه المنطقة مصابة بطفيل المثقبة الغامبية، 
+املأ المنطقة بخلايا الدم المناسبة؛ لتقوم 
+بمحاربة هذه الإصابة. </value>
+	</data>
+	<data name="Part1_Lable" xml:space="preserve">
+		<value>أنت تتحرك داخل الوعاء الدموي.
+يمكنك أن تزيد من سرعة حركتك باستخدام وحدة التحكم.
+اختر كل نوع من أنواع خلايا الدم لتعرف عنه أكثر.</value>
+	</data>
+	<data name="Part1_Lable0" xml:space="preserve">
+		<value>أنت الآن تتجول بداخل الوعاء الدموي، ولديك ماسح 
+ضوئي معك، يمكنه أن يتعرف على العوائق التي 
+ستلقاها في طريقك. ولتتغلب على هذه العوائق، 
+يتم تزويدك بحقنة يمكنك ملؤها بخلايا 
+الدم كحل لذلك.</value>
+	</data>
+	<data name="Part2_Lable" xml:space="preserve">
+		<value>حيث إنك قد رأيت الأنواع المختلفة 
+لخلايا الدم، قم بجمع اثنين من كل نوع.
+اختر الخلية لكي تقوم بجمعها.</value>
+	</data>
+	<data name="Platelet" xml:space="preserve">
+		<value>صفيحة دموية.</value>
+	</data>
+	<data name="Platellet_Button" xml:space="preserve">
+		<value>صفيحة دموية.</value>
+	</data>
+	<data name="Play_again" xml:space="preserve">
+		<value>العب مرة أخرى.</value>
+	</data>
+	<data name="Preferences" xml:space="preserve">
+		<value>تفضيلات.</value>
+	</data>
+	<data name="RBC" xml:space="preserve">
+		<value>كُرَيَّةُ دم حمراء.</value>
+	</data>
+	<data name="RBC_Button" xml:space="preserve">
+		<value>خلايا الدم 
+الحمراء )RBCs(</value>
+	</data>
+	<data name="Restart" xml:space="preserve">
+		<value>إعادة التشغيل.</value>
+	</data>
+	<data name="roundShapbacteria_Dialoge" xml:space="preserve">
+		<value>تم ضبط بكتيريا كروية لديها حصانة من 
+الخلايا المحببة هنا.
+دمِّرها من خلال البلعمة بالخلايا غير المحببة.</value>
+	</data>
+	<data name="Score" xml:space="preserve">
+		<value>مجموع النقاط :</value>
+	</data>
+	<data name="ScoreBoardLevel2" xml:space="preserve">
+		<value>مجموع النقاط :</value>
+	</data>
+	<data name="ScoreBord" xml:space="preserve">
+		<value>كُرَيَّةُ دم حمراء.: ٠/٢</value>
+	</data>
+	<data name="selectCorrectBullet" xml:space="preserve">
+		<value>حاول مرة أخرى.
+اختر خلايا الدم المناسبة.</value>
+	</data>
+	<data name="SelectMsg" xml:space="preserve">
+		<value>اختر الجسم باستخدام زر "موافق".</value>
+	</data>
+	<data name="Settings" xml:space="preserve">
+		<value>إعدادات.</value>
+	</data>
+	<data name="Setup" xml:space="preserve">
+		<value>تثبيت.</value>
+	</data>
+	<data name="Sync _to _Cloud" xml:space="preserve">
+		<value>المزامنة مع المستخدمين.</value>
+	</data>
+	<data name="Sync_to_Server" xml:space="preserve">
+		<value>مزامنة مع الخادم.</value>
+	</data>
+	<data name="Title" xml:space="preserve">
+		<value>خلايا الدم</value>
+	</data>
+	<data name="Tryagain" xml:space="preserve">
+		<value>حاول مرة أخرى.</value>
+	</data>
+	<data name="TryagainMsg" xml:space="preserve">
+		<value>لقد حصلت على مجموع نقاط أقل من 60%، يمكنك لعب المحاكاة مرة أخرى لتحسين مجموع نقاطك، أو اضغط على "موافق" للمتابعة. </value>
+	</data>
+	<data name="TryMsg" xml:space="preserve">
+		<value>حاول أنت الآن.</value>
+	</data>
+	<data name="VeativeVR" xml:space="preserve">
+		<value>تطبيقات Veative التعليمية بتقنية الواقع الافتراضي.</value>
+	</data>
+	<data name="Virtual)reality" xml:space="preserve">
+		<value>الواقع الافتراضي.</value>
+	</data>
+	<data name="WelcomeBg" xml:space="preserve">
+		<value>قبل البدء في المحاكاة، فلنتعلم أولًا كيف يمكننا استخدام وحدة التحكم.</value>
+	</data>
+	<data name="WeldoneMsg" xml:space="preserve">
+		<value>أحسنت! لقد أكملت المحاكاة. 
+اضغط على "موافق" للمتابعة.</value>
+	</data>
+	<data name="WellDoneMsg" xml:space="preserve">
+		<value>أحسنت!</value>
+	</data>
+	<data name="Welldonepart1_Dialoge" xml:space="preserve">
+		<value>أحسنت!
+لقد أكملت المهمة بنجاح.</value>
+	</data>
+	<data name="ZoomMsg" xml:space="preserve">
+		<value>تُستخدَم عصا التحكم أيضًا للتكبير أو التصغير.</value>
+	</data>
+</root>

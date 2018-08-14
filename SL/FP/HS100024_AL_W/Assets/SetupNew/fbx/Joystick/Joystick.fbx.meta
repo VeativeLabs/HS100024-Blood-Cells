@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 48af7e176db91824fb4a72667876891b
+timeCreated: 1483798630
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Back_Button
+    100002: Body
+    100004: Button
+    100006: cell_01
+    100008: cell_02
+    100010: Cell_Grp
+    100012: Cover
+    100014: Inside
+    100016: Inside1
+    100018: //RootNode
+    100020: Joystick
+    100022: Logo
+    100024: OK
+    100026: On
+    100028: pHelix1
+    100030: pHelix2
+    100032: polySurface7
+    100034: polySurface8
+    100036: Setting
+    100038: support
+    100040: Support2
+    100042: Trigger
+    400000: Back_Button
+    400002: Body
+    400004: Button
+    400006: cell_01
+    400008: cell_02
+    400010: Cell_Grp
+    400012: Cover
+    400014: Inside
+    400016: Inside1
+    400018: Joystick
+    400020: //RootNode
+    400022: Logo
+    400024: OK
+    400026: On
+    400028: pHelix1
+    400030: pHelix2
+    400032: polySurface7
+    400034: polySurface8
+    400036: Setting
+    400038: support
+    400040: Support2
+    400042: Trigger
+    2300000: Back_Button
+    2300002: Body
+    2300004: cell_01
+    2300006: cell_02
+    2300008: Cover
+    2300010: Inside1
+    2300012: Joystick
+    2300014: Logo
+    2300016: OK
+    2300018: On
+    2300020: pHelix1
+    2300022: pHelix2
+    2300024: polySurface7
+    2300026: polySurface8
+    2300028: Setting
+    2300030: support
+    2300032: Support2
+    2300034: Trigger
+    3300000: Back_Button
+    3300002: Body
+    3300004: cell_01
+    3300006: cell_02
+    3300008: Cover
+    3300010: Inside1
+    3300012: Joystick
+    3300014: Logo
+    3300016: OK
+    3300018: On
+    3300020: pHelix1
+    3300022: pHelix2
+    3300024: polySurface7
+    3300026: polySurface8
+    3300028: Setting
+    3300030: support
+    3300032: Support2
+    3300034: Trigger
+    4300000: Inside1
+    4300002: Body
+    4300004: support
+    4300006: Support2
+    4300008: Cover
+    4300010: Logo
+    4300012: On
+    4300014: pHelix1
+    4300016: polySurface8
+    4300018: polySurface7
+    4300020: pHelix2
+    4300022: OK
+    4300024: Trigger
+    4300026: Joystick
+    4300028: Setting
+    4300030: Back_Button
+    4300032: cell_01
+    4300034: cell_02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

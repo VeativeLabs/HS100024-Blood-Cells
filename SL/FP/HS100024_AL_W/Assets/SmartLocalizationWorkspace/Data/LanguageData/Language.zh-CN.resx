@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Allinone_VRHeaset" xml:space="preserve">
+		<value>一体化虚拟现实耳机</value>
+	</data>
+	<data name="bacteria_Dialoge" xml:space="preserve">
+		<value>此处探测到的细菌无法被消灭。只有通过粒细胞的吞噬作用才能消灭它们。</value>
+	</data>
+	<data name="Basophil" xml:space="preserve">
+		<value>噬碱性粒细胞</value>
+	</data>
+	<data name="basophil_Button" xml:space="preserve">
+		<value>噬碱性粒细胞</value>
+	</data>
+	<data name="bg_mark" xml:space="preserve">
+		<value>按照指示完成练习
+第一次答对 每题得5分
+第二次答对 每题得3分
+第三次答对 每题得2分</value>
+	</data>
+	<data name="Bullets" xml:space="preserve">
+		<value>血细胞</value>
+	</data>
+	<data name="ButtonIntroBg" xml:space="preserve">
+		<value>控制器上有“确定”按钮，“返回”按钮，“菜单”按钮和“操纵杆”按钮，其中，“返回”按钮长按也可用作“运行”按钮和“菜单”按钮，“菜单”按钮长按也可用作“停止”按钮和“操纵杆”按钮。</value>
+	</data>
+	<data name="C_Btn_ActivityMenu" xml:space="preserve">
+		<value>活动菜单</value>
+	</data>
+	<data name="C_Btn_Close" xml:space="preserve">
+		<value />
+	</data>
+	<data name="C_Btn_No" xml:space="preserve">
+		<value>不是</value>
+	</data>
+	<data name="C_Btn_Quit" xml:space="preserve">
+		<value>离开</value>
+	</data>
+	<data name="C_Btn_RestartActivity" xml:space="preserve">
+		<value>重新启动活动</value>
+	</data>
+	<data name="C_Btn_Resume" xml:space="preserve">
+		<value>重新开始</value>
+	</data>
+	<data name="C_Btn_SyncToServer" xml:space="preserve">
+		<value />
+	</data>
+	<data name="C_Btn_Veiw LO" xml:space="preserve">
+		<value>查看学习目标</value>
+	</data>
+	<data name="C_Btn_Yes" xml:space="preserve">
+		<value>是的</value>
+	</data>
+	<data name="C_Inst_ActivityComplete" xml:space="preserve">
+		<value>你已完成本次活动。选择确定键返回菜单并继续下一个活动。</value>
+	</data>
+	<data name="C_Inst_Assesment_Complete" xml:space="preserve">
+		<value>你已完成本次评估。这是你的得分:</value>
+	</data>
+	<data name="C_Inst_Assesment_GreaterThan60%" xml:space="preserve">
+		<value>你的得分不错且你已完成本模块的学习!选择确定键返回菜单即可退出。</value>
+	</data>
+	<data name="C_Inst_Assesment_LessThan60%" xml:space="preserve">
+		<value>你的得分少于60%。返回菜单后,你可以再次进行评估来提高分数,或者你可以选择退出。</value>
+	</data>
+	<data name="C_Inst_AssesmentScoringRule" xml:space="preserve">
+		<value>按照指示完成评估并得到相应的分数。
+第一次答对,得满分
+再次尝试后答对，不得满分。
+使用提示则不得分。</value>
+	</data>
+	<data name="C_Inst_CheckNetworkConnection" xml:space="preserve">
+		<value>请检查你的网络连接或稍后再试。</value>
+	</data>
+	<data name="C_Inst_GreaterThan60%_LastLevel" xml:space="preserve">
+		<value>你的得分不错!选择确定键返回菜单即可退出。</value>
+	</data>
+	<data name="C_Inst_LessThan60%" xml:space="preserve">
+		<value>你的得分少于60%。返回菜单后,你可以再次尝试完成此活动以提高分数。</value>
+	</data>
+	<data name="C_Inst_LevelComplete" xml:space="preserve">
+		<value>你已完成本次活动。选择确定键返回菜单并继续下一个活动。</value>
+	</data>
+	<data name="C_Inst_QuitMessage" xml:space="preserve">
+		<value>你确定要离开吗?</value>
+	</data>
+	<data name="C_Inst_RightOption" xml:space="preserve">
+		<value />
+	</data>
+	<data name="C_Inst_ScoreDisplay" xml:space="preserve">
+		<value>你已完成本次活动。这是你的得分:</value>
+	</data>
+	<data name="C_Inst_ScoringRule" xml:space="preserve">
+		<value>按照指示完成活动并得到相应的分数。
+第一次答对,得满分
+再次尝试后答对，不得满分。
+使用提示则不得分。</value>
+	</data>
+	<data name="C_TryAgain1" xml:space="preserve">
+		<value>请重试。</value>
+	</data>
+	<data name="C_TryAgain2" xml:space="preserve">
+		<value>选择有误。</value>
+	</data>
+	<data name="C_TryAgain3" xml:space="preserve">
+		<value>不完全正确。</value>
+	</data>
+	<data name="C_WellDone1" xml:space="preserve">
+		<value>做得好!</value>
+	</data>
+	<data name="C_WellDone2" xml:space="preserve">
+		<value>答对了！</value>
+	</data>
+	<data name="C_WellDone3" xml:space="preserve">
+		<value>回答正确!</value>
+	</data>
+	<data name="Choose_Language" xml:space="preserve">
+		<value>选择语言</value>
+	</data>
+	<data name="ClickMe" xml:space="preserve">
+		<value>点击这里</value>
+	</data>
+	<data name="clickOnLable" xml:space="preserve">
+		<value>点击标签以了解更多</value>
+	</data>
+	<data name="ClickOnLoad" xml:space="preserve">
+		<value>点击“填充”进行下一步</value>
+	</data>
+	<data name="Close" xml:space="preserve">
+		<value>关闭</value>
+	</data>
+	<data name="CollectBasophil" xml:space="preserve">
+		<value>请收集2个噬碱性粒细胞。</value>
+	</data>
+	<data name="CollectEosinophil" xml:space="preserve">
+		<value>请收集2个噬酸性粒细胞。</value>
+	</data>
+	<data name="CollectLymphocyte" xml:space="preserve">
+		<value>请收集2个淋巴细胞。</value>
+	</data>
+	<data name="CollectMonocyte" xml:space="preserve">
+		<value>请收集2个单核细胞。</value>
+	</data>
+	<data name="CollectNeutrophil" xml:space="preserve">
+		<value>请收集2个中性粒细胞。</value>
+	</data>
+	<data name="CollectPletellet" xml:space="preserve">
+		<value>请收集2个血小板。</value>
+	</data>
+	<data name="CollectRBc" xml:space="preserve">
+		<value>请收集2个红血球。</value>
+	</data>
+	<data name="completed _simulation." xml:space="preserve">
+		<value>你已成功地完成了这次模拟练习。</value>
+	</data>
+	<data name="Continue" xml:space="preserve">
+		<value>继续</value>
+	</data>
+	<data name="correctBulletchoos" xml:space="preserve">
+		<value>点击注入正确的血液细胞</value>
+	</data>
+	<data name="CutVessel_Dialoge" xml:space="preserve">
+		<value>糟糕，在对抗感染时血管受伤了。请使用凝血必需的血细胞进行修复。</value>
+	</data>
+	<data name="DiscriptionBasophil" xml:space="preserve">
+		<value>具二裂片或U型核的粒细胞以及少量细胞质负责过敏和炎症反应。</value>
+	</data>
+	<data name="DiscriptionEosinophil" xml:space="preserve">
+		<value>具二裂片的核粒细胞能杀死寄生虫，并摧毁感染区域内引发炎症的因子。</value>
+	</data>
+	<data name="DiscriptionLymphocyte" xml:space="preserve">
+		<value>具有又大又圆的细胞核和少量细胞质的无颗粒白细胞为身体提供免疫力。</value>
+	</data>
+	<data name="DiscriptionMonocyte" xml:space="preserve">
+		<value>大型异形核的无颗粒白细胞吞噬坏死细胞和大型外部入侵者。</value>
+	</data>
+	<data name="DiscriptionNeutrophil" xml:space="preserve">
+		<value>多裂片核的粒细胞通过吞噬作用攻击消灭入侵的细菌和病毒。</value>
+	</data>
+	<data name="DiscriptionPlatelet" xml:space="preserve">
+		<value>小而无核的细胞碎片对凝血或止血有关键作用。</value>
+	</data>
+	<data name="DiscriptionRBC" xml:space="preserve">
+		<value>它是两面凹的圆盘形，并且没有细胞核。从肺部携带氧气运输到组织。</value>
+	</data>
+	<data name="DragDropMsg" xml:space="preserve">
+		<value>选取一个目标物，首先要找到它，然后按住“确定”按钮不放。左右移动你的头部可以拖动目标物，然后释放“确定”按钮放置目标物。</value>
+	</data>
+	<data name="end_forgnbacteria_Dialoge" xml:space="preserve">
+		<value>做得好!你已成功缓解感染的症状。</value>
+	</data>
+	<data name="end_immunity_Dialoge" xml:space="preserve">
+		<value>做得好！
+你保持在一个适当的免疫水平。</value>
+	</data>
+	<data name="end_part0_Dialoge (1)" xml:space="preserve">
+		<value>做得好！
+氧气水平保持稳当。</value>
+	</data>
+	<data name="end_part1_Dialoge" xml:space="preserve">
+		<value>做得好！</value>
+	</data>
+	<data name="EndLevel1_Lable" xml:space="preserve">
+		<value>做得好！
+你已成功收集了所有类型的血细胞。
+ 点击选项卡选择</value>
+	</data>
+	<data name="EndLevel1_Lable0" xml:space="preserve">
+		<value>太棒了！
+你已成功解锁本次模拟的所有级别。
+点击“重新开始”按钮再玩一次</value>
+	</data>
+	<data name="Eosinophil" xml:space="preserve">
+		<value>嗜酸性粒细胞</value>
+	</data>
+	<data name="eosinophil_Button" xml:space="preserve">
+		<value>嗜酸性粒细胞</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>退出</value>
+	</data>
+	<data name="ExitMsg" xml:space="preserve">
+		<value>点击“返回”按钮回到上级菜单</value>
+	</data>
+	<data name="firstMesseg" xml:space="preserve">
+		<value>点击“血细胞”查看细胞列表</value>
+	</data>
+	<data name="Greenbacteria_Dialoge" xml:space="preserve">
+		<value>你已进入有害细菌区域。只有通过粒细胞的吞噬作用才能消灭它们。</value>
+	</data>
+	<data name="Home" xml:space="preserve">
+		<value>首页</value>
+	</data>
+	<data name="ImmunityLow_Dialoge" xml:space="preserve">
+		<value>身体的免疫水平越来越低。请注入提高免疫力的血细胞。</value>
+	</data>
+	<data name="Infection_Dialoge" xml:space="preserve">
+		<value>血液中检测出某种传染性病原体。在该区域内注入血细胞，以缓解感染症状。</value>
+	</data>
+	<data name="Inst_LevelComplete" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Label off" xml:space="preserve">
+		<value>隐藏标签</value>
+	</data>
+	<data name="Label on" xml:space="preserve">
+		<value>显示标签</value>
+	</data>
+	<data name="LearningOutcomes" xml:space="preserve">
+		<value>学习效果
+通过本次模拟练习之后，你现在可以：
+● 识别不同类型的血细胞
+● 描述不同类型血细胞的结构
+● 说明每种类型的血细胞功能</value>
+	</data>
+	<data name="Level1" xml:space="preserve">
+		<value>血细胞的类型</value>
+	</data>
+	<data name="Level2" xml:space="preserve">
+		<value>评估习得</value>
+	</data>
+	<data name="Level20" xml:space="preserve">
+		<value>重新开始</value>
+	</data>
+	<data name="Level3" xml:space="preserve">
+		<value>等级 3</value>
+	</data>
+	<data name="LoadButton" xml:space="preserve">
+		<value>填充</value>
+	</data>
+	<data name="LookAroundMsg" xml:space="preserve">
+		<value>你可以向左或向右移动头部，来察看周围的环境或改变你的方向。</value>
+	</data>
+	<data name="LowOxygenArea_Dialoge" xml:space="preserve">
+		<value>前方有障碍。
+你处在低氧气区，请注入携带氧气的血细胞。</value>
+	</data>
+	<data name="Lymphocyte" xml:space="preserve">
+		<value>淋巴细胞</value>
+	</data>
+	<data name="lymphocyte_Button" xml:space="preserve">
+		<value>淋巴细胞</value>
+	</data>
+	<data name="Menu" xml:space="preserve">
+		<value>菜单</value>
+	</data>
+	<data name="Monocyte" xml:space="preserve">
+		<value>单核细胞</value>
+	</data>
+	<data name="monocyte_Button" xml:space="preserve">
+		<value>单核细胞</value>
+	</data>
+	<data name="MoreBullets" xml:space="preserve">
+		<value>注入更多细胞来完成治疗过程</value>
+	</data>
+	<data name="MoveForwardMsg" xml:space="preserve">
+		<value>前后移动操纵杆来控制方向</value>
+	</data>
+	<data name="Neutrophil" xml:space="preserve">
+		<value>中性粒细胞</value>
+	</data>
+	<data name="neutrophil _Button" xml:space="preserve">
+		<value>中性粒细胞</value>
+	</data>
+	<data name="NotBasophil" xml:space="preserve">
+		<value>请重试。这不是噬碱性粒细胞。</value>
+	</data>
+	<data name="NotEosinophil" xml:space="preserve">
+		<value>请重试。这不是噬酸性粒细胞。</value>
+	</data>
+	<data name="NotLymphocyte" xml:space="preserve">
+		<value>请重试。这不是淋巴细胞。</value>
+	</data>
+	<data name="NotMonocyte" xml:space="preserve">
+		<value>请重试。这不是单核细胞。</value>
+	</data>
+	<data name="NotNeutrophil" xml:space="preserve">
+		<value>请重试。这不是中性粒细胞。</value>
+	</data>
+	<data name="NotPlatellets" xml:space="preserve">
+		<value>请重试。这不是血小板。</value>
+	</data>
+	<data name="NotRBCs" xml:space="preserve">
+		<value>请重试。这不是红血球。</value>
+	</data>
+	<data name="notThis" xml:space="preserve">
+		<value />
+	</data>
+	<data name="NumberOfCell" xml:space="preserve">
+		<value>你需要再观察7种类型的血细胞。</value>
+	</data>
+	<data name="NumberOfCell1" xml:space="preserve">
+		<value>你还需查看6种血细胞类型。</value>
+	</data>
+	<data name="NumberOfCell2" xml:space="preserve">
+		<value>你还需查看5种血细胞类型。</value>
+	</data>
+	<data name="NumberOfCell3" xml:space="preserve">
+		<value>你还需查看4种血细胞类型。</value>
+	</data>
+	<data name="NumberOfCell4" xml:space="preserve">
+		<value>你还需查看3种血细胞类型。</value>
+	</data>
+	<data name="NumberOfCell5" xml:space="preserve">
+		<value>你还需查看2种血细胞类型。</value>
+	</data>
+	<data name="NumberOfCell6" xml:space="preserve">
+		<value>你还需查看1种血细胞类型。</value>
+	</data>
+	<data name="Objective" xml:space="preserve">
+		<value>目标</value>
+	</data>
+	<data name="Objective_Content" xml:space="preserve">
+		<value>学习目标
+
+完成本模块的模拟学习后, 你将能够:
+● 列出不同类型的血细胞
+● 描述不同类型血细胞的结构
+● 说明不同类型的血细胞的功能</value>
+	</data>
+	<data name="ok" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="OnLoad" xml:space="preserve">
+		<value>扣动扳机将血细胞填入该区域</value>
+	</data>
+	<data name="paracyte_Dialoge" xml:space="preserve">
+		<value>本区域被“冈比亚锥虫”感染。
+请注入正确的血细胞对抗感染。</value>
+	</data>
+	<data name="Part1_Lable" xml:space="preserve">
+		<value>你正在进入血管内部，你可以运用控制器，加速移动。
+点击每个细胞上的标签可以了解更多。</value>
+	</data>
+	<data name="Part1_Lable0" xml:space="preserve">
+		<value>你正在血管中旅行。
+ 
+你有一个扫描仪,可以识别各种障碍。
+ 
+用于克服障碍，你可以打一针血细胞作为补救措施。</value>
+	</data>
+	<data name="Part2_Lable" xml:space="preserve">
+		<value>你已经观察了所有不同类型的血细胞，每种类型请收集2个。点击细胞进行收集。</value>
+	</data>
+	<data name="Platelet" xml:space="preserve">
+		<value>血小板</value>
+	</data>
+	<data name="Platellet_Button" xml:space="preserve">
+		<value>血小板</value>
+	</data>
+	<data name="Play_again" xml:space="preserve">
+		<value>再玩一次</value>
+	</data>
+	<data name="Preferences" xml:space="preserve">
+		<value>参数选择</value>
+	</data>
+	<data name="RBC" xml:space="preserve">
+		<value>红血球</value>
+	</data>
+	<data name="RBC_Button" xml:space="preserve">
+		<value>红血球(RBC)</value>
+	</data>
+	<data name="Restart" xml:space="preserve">
+		<value>重新开始</value>
+	</data>
+	<data name="roundShapbacteria_Dialoge" xml:space="preserve">
+		<value>圆形细菌对粒细胞免疫。
+请用无颗粒白细胞的吞噬作用摧毁他们。</value>
+	</data>
+	<data name="Score" xml:space="preserve">
+		<value>得分</value>
+	</data>
+	<data name="ScoreBoardLevel2" xml:space="preserve">
+		<value>得分：</value>
+	</data>
+	<data name="ScoreBord" xml:space="preserve">
+		<value>红血球 : 0/2</value>
+	</data>
+	<data name="selectCorrectBullet" xml:space="preserve">
+		<value>再试一次。选择合适的血细胞。</value>
+	</data>
+	<data name="SelectMsg" xml:space="preserve">
+		<value>使用“确定”按钮选择对象</value>
+	</data>
+	<data name="Settings" xml:space="preserve">
+		<value>设置</value>
+	</data>
+	<data name="Setup" xml:space="preserve">
+		<value>设置</value>
+	</data>
+	<data name="Sync _to _Cloud" xml:space="preserve">
+		<value>同步到云</value>
+	</data>
+	<data name="Sync_to_Server" xml:space="preserve">
+		<value>同步到服务器</value>
+	</data>
+	<data name="Title" xml:space="preserve">
+		<value>血细胞</value>
+	</data>
+	<data name="Tryagain" xml:space="preserve">
+		<value>请重试</value>
+	</data>
+	<data name="TryagainMsg" xml:space="preserve">
+		<value>你的得分低于60%。你可以再次进行模拟练习以提高你的分数。 点击“确定”键进入下一步</value>
+	</data>
+	<data name="TryMsg" xml:space="preserve">
+		<value>开始尝试</value>
+	</data>
+	<data name="VeativeVR" xml:space="preserve">
+		<value>Veative虚拟现实学习教育应用</value>
+	</data>
+	<data name="Virtual)reality" xml:space="preserve">
+		<value>虚拟现实</value>
+	</data>
+	<data name="WelcomeBg" xml:space="preserve">
+		<value>在开始本次模拟之前，让我们先学习如何使用控制器。</value>
+	</data>
+	<data name="WeldoneMsg" xml:space="preserve">
+		<value>做得好！你已经完成本次模拟练习。 
+点击“确定”进入下一步</value>
+	</data>
+	<data name="WellDoneMsg" xml:space="preserve">
+		<value>做得好！</value>
+	</data>
+	<data name="Welldonepart1_Dialoge" xml:space="preserve">
+		<value>做得好！你已成功地完成了任务。</value>
+	</data>
+	<data name="ZoomMsg" xml:space="preserve">
+		<value>操纵杆也用于放大和缩小。</value>
+	</data>
+</root>

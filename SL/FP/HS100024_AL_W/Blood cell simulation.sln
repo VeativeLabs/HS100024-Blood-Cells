@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{384BA26E-AD93-E055-053A-390CCBE29A9D}") = "Blood cell simulation", "Assembly-CSharp-firstpass.csproj", "{D670FD23-77CE-E916-1301-6C1052505466}"
+EndProject
+Project("{384BA26E-AD93-E055-053A-390CCBE29A9D}") = "Blood cell simulation", "Assembly-CSharp.csproj", "{EB1B9013-CEB5-F8B8-79EA-8C6618134CFF}"
+EndProject
+Project("{384BA26E-AD93-E055-053A-390CCBE29A9D}") = "Blood cell simulation", "Assembly-CSharp-Editor.csproj", "{80635FAA-AB5A-FE56-B91F-E88847E6CA5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D670FD23-77CE-E916-1301-6C1052505466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D670FD23-77CE-E916-1301-6C1052505466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D670FD23-77CE-E916-1301-6C1052505466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D670FD23-77CE-E916-1301-6C1052505466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1B9013-CEB5-F8B8-79EA-8C6618134CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1B9013-CEB5-F8B8-79EA-8C6618134CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1B9013-CEB5-F8B8-79EA-8C6618134CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1B9013-CEB5-F8B8-79EA-8C6618134CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80635FAA-AB5A-FE56-B91F-E88847E6CA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80635FAA-AB5A-FE56-B91F-E88847E6CA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80635FAA-AB5A-FE56-B91F-E88847E6CA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80635FAA-AB5A-FE56-B91F-E88847E6CA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

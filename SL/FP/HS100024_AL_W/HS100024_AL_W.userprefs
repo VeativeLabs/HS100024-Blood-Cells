@@ -1,0 +1,33 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BloodCell\Script\CanvasController.cs">
+    <Files>
+      <File FileName="Assets\BloodCell\Script\shootingCell.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\ConstantTranslate.cs" Line="1" Column="1" />
+      <File FileName="Assets\BackMenu\BackMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Database\Scripts\DBScripts\DatabaseManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\Genrate_Tunnal.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\Genrate_Tunnal2.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\HighLight.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\FixVeriable.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\CanvasController.cs" Line="282" Column="38" />
+      <File FileName="Assets\BloodCell\Script\EnergyBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Script\LanguageHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\Genratebacteria.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Script\LocaliseTextAndVoiceOver.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\Level2Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\movePools.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\Level1Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets\ProjectSetup_VR\MainMenu\HowToSetup\Script\HeadRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\MainMenu\HowToSetup\Script\AnAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Script\LocaliseVoiceOver.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\Script\RandomRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Loading Scene\SceneLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets\BloodCell\MainMenu\MovementController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

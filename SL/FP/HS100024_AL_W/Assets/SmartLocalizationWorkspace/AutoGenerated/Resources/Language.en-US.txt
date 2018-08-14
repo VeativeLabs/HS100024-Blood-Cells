@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Allinone_VRHeaset" xml:space="preserve">
+		<value>All-in-one VR Headset</value>
+	</data>
+	<data name="bacteria_Dialoge" xml:space="preserve">
+		<value>Bacteria which cannot be destroyed by granulocytes are detected here. 
+Destroy them through phagocytosis with agranulocytes.</value>
+	</data>
+	<data name="Basophil" xml:space="preserve">
+		<value>Basophil</value>
+	</data>
+	<data name="basophil_Button" xml:space="preserve">
+		<value>Basophil</value>
+	</data>
+	<data name="bg_mark" xml:space="preserve">
+		<value>Follow the instructions to complete the activity 
+
+You will get 5 points if you are correct on the first try, 3 points for the second attempt and 2 points for the third attempt.</value>
+	</data>
+	<data name="Bullets" xml:space="preserve">
+		<value>BLOOD CELLS</value>
+	</data>
+	<data name="ButtonIntroBg" xml:space="preserve">
+		<value>The controller has an ‘OK’ button, a 'Back' button, which also works as an 'On' button when held, and a 'Menu' button, which also works as an 'Off' button when held, and a 'Joystick'.</value>
+	</data>
+	<data name="C_Btn_ActivityMenu" xml:space="preserve">
+		<value>Activity menu</value>
+	</data>
+	<data name="C_Btn_Close" xml:space="preserve">
+		<value />
+	</data>
+	<data name="C_Btn_No" xml:space="preserve">
+		<value>No</value>
+	</data>
+	<data name="C_Btn_Quit" xml:space="preserve">
+		<value>Quit</value>
+	</data>
+	<data name="C_Btn_RestartActivity" xml:space="preserve">
+		<value>Restart activity</value>
+	</data>
+	<data name="C_Btn_Resume" xml:space="preserve">
+		<value>Resume</value>
+	</data>
+	<data name="C_Btn_SyncToServer" xml:space="preserve">
+		<value />
+	</data>
+	<data name="C_Btn_Veiw LO" xml:space="preserve">
+		<value>View learning objectives</value>
+	</data>
+	<data name="C_Btn_Yes" xml:space="preserve">
+		<value>Yes</value>
+	</data>
+	<data name="C_Inst_ActivityComplete" xml:space="preserve">
+		<value>You have completed this activity. Select OK to return to the menu and continue to the next activity.</value>
+	</data>
+	<data name="C_Inst_Assesment_Complete" xml:space="preserve">
+		<value>You have completed the assessment. Here is your score:</value>
+	</data>
+	<data name="C_Inst_Assesment_GreaterThan60%" xml:space="preserve">
+		<value>You scored well and you have completed the module! Select OK to return to the menu where you can exit.</value>
+	</data>
+	<data name="C_Inst_Assesment_LessThan60%" xml:space="preserve">
+		<value>You have scored less than 60%. After returning to the menu, you can try the assessment again to improve your score, or you can exit.</value>
+	</data>
+	<data name="C_Inst_AssesmentScoringRule" xml:space="preserve">
+		<value>Follow the instructions to perform the assessment and earn points. You'll receive full points when you are correct on the first try, fewer points if you have to try again. No points are awarded if you use a hint.</value>
+	</data>
+	<data name="C_Inst_CheckNetworkConnection" xml:space="preserve">
+		<value>Please check your network connection or try again later.</value>
+	</data>
+	<data name="C_Inst_GreaterThan60%_LastLevel" xml:space="preserve">
+		<value>You scored well! Select OK to return to the menu where you can exit.</value>
+	</data>
+	<data name="C_Inst_LessThan60%" xml:space="preserve">
+		<value>You scored less than 60%. After returning to the menu, you can try the activity again to improve your score.</value>
+	</data>
+	<data name="C_Inst_LevelComplete" xml:space="preserve">
+		<value>You have completed this activity. Select OK to return to the menu and continue to the next activity.</value>
+	</data>
+	<data name="C_Inst_QuitMessage" xml:space="preserve">
+		<value>Are you sure you want to quit?</value>
+	</data>
+	<data name="C_Inst_RightOption" xml:space="preserve">
+		<value />
+	</data>
+	<data name="C_Inst_ScoreDisplay" xml:space="preserve">
+		<value>You have completed this activity. Here  is your score: </value>
+	</data>
+	<data name="C_Inst_ScoringRule" xml:space="preserve">
+		<value>Follow the instructions to perform the activity and earn points. You'll receive full points when you are correct on the first try, fewer points if you have to try again. No points are awarded if you use a hint.</value>
+	</data>
+	<data name="C_TryAgain1" xml:space="preserve">
+		<value>Try again.</value>
+	</data>
+	<data name="C_TryAgain2" xml:space="preserve">
+		<value>That's not it.</value>
+	</data>
+	<data name="C_TryAgain3" xml:space="preserve">
+		<value>Not quite right.</value>
+	</data>
+	<data name="C_WellDone1" xml:space="preserve">
+		<value>Well done!</value>
+	</data>
+	<data name="C_WellDone2" xml:space="preserve">
+		<value>Correct!</value>
+	</data>
+	<data name="C_WellDone3" xml:space="preserve">
+		<value>Right!</value>
+	</data>
+	<data name="Choose_Language" xml:space="preserve">
+		<value>Choose Language</value>
+	</data>
+	<data name="ClickMe" xml:space="preserve">
+		<value>Click here</value>
+	</data>
+	<data name="clickOnLable" xml:space="preserve">
+		<value>Click on the label to know more about it.</value>
+	</data>
+	<data name="ClickOnLoad" xml:space="preserve">
+		<value>Select FILL to proceed.</value>
+	</data>
+	<data name="Close" xml:space="preserve">
+		<value>Close</value>
+	</data>
+	<data name="CollectBasophil" xml:space="preserve">
+		<value>You have to collect two basophils.</value>
+	</data>
+	<data name="CollectEosinophil" xml:space="preserve">
+		<value>You have to collect two eosinophils.</value>
+	</data>
+	<data name="CollectLymphocyte" xml:space="preserve">
+		<value>You have to collect two lymphocytes.</value>
+	</data>
+	<data name="CollectMonocyte" xml:space="preserve">
+		<value>You have to collect two monocytes.</value>
+	</data>
+	<data name="CollectNeutrophil" xml:space="preserve">
+		<value>You have to collect two neutrophils.</value>
+	</data>
+	<data name="CollectPletellet" xml:space="preserve">
+		<value>You have to collect two platelets.</value>
+	</data>
+	<data name="CollectRBc" xml:space="preserve">
+		<value>You have to collect two RBCs.</value>
+	</data>
+	<data name="completed _simulation." xml:space="preserve">
+		<value>You have completed this simulation.</value>
+	</data>
+	<data name="Continue" xml:space="preserve">
+		<value>Continue</value>
+	</data>
+	<data name="correctBulletchoos" xml:space="preserve">
+		<value>Click on the correct blood cell to inject with.</value>
+	</data>
+	<data name="CutVessel_Dialoge" xml:space="preserve">
+		<value>Oh no, during all this fighting against infections, we got a cut in the blood vessel.
+Repair with the help of the blood cells necessary for blood clotting.</value>
+	</data>
+	<data name="DiscriptionBasophil" xml:space="preserve">
+		<value>A granulocyte with a bilobed or U-shaped nucleus and less cytoplasm responsible for allergic and inflammatory reactions or responses.</value>
+	</data>
+	<data name="DiscriptionEosinophil" xml:space="preserve">
+		<value>A granulocyte with a bilobed nucleus that kills parasites and destroys some of the inflammation-causing agents in affected areas.</value>
+	</data>
+	<data name="DiscriptionLymphocyte" xml:space="preserve">
+		<value>An agranulocyte with large, round nucleus and less cytoplasm that provides immunity to the body.</value>
+	</data>
+	<data name="DiscriptionMonocyte" xml:space="preserve">
+		<value>An agranulocyte with a large, irregular-shaped nucleus that engulfs dead cells and large foreign invaders through phagocytosis.</value>
+	</data>
+	<data name="DiscriptionNeutrophil" xml:space="preserve">
+		<value>A granulocyte with a multi-lobed nucleus that attacks invading bacteria and viruses through phagocytosis.</value>
+	</data>
+	<data name="DiscriptionPlatelet" xml:space="preserve">
+		<value>A small, anucleate, cellular fragment that plays an important role in blood clotting or hemostasis.</value>
+	</data>
+	<data name="DiscriptionRBC" xml:space="preserve">
+		<value>A biconcave, disk-shaped cell that lacks a nucleus. It carries oxygen from the lungs to the cells.</value>
+	</data>
+	<data name="DragDropMsg" xml:space="preserve">
+		<value>To pick an object, you need to locate it, then press and hold the 'OK' button. Turn your head right or left to move the object, then release the 'OK' button to drop the object.</value>
+	</data>
+	<data name="end_forgnbacteria_Dialoge" xml:space="preserve">
+		<value>Well done! You have successfully treated the symptoms of infection.</value>
+	</data>
+	<data name="end_immunity_Dialoge" xml:space="preserve">
+		<value>Well done!
+You have maintained the immunity at an appropriate level.</value>
+	</data>
+	<data name="end_part0_Dialoge (1)" xml:space="preserve">
+		<value>Well done!
+The proper oxygen level has been maintained.</value>
+	</data>
+	<data name="end_part1_Dialoge" xml:space="preserve">
+		<value>Well done!</value>
+	</data>
+	<data name="EndLevel1_Lable" xml:space="preserve">
+		<value>Well done!
+You have successfully collected all types of blood cells.
+
+Click on the tabs to select</value>
+	</data>
+	<data name="EndLevel1_Lable0" xml:space="preserve">
+		<value>Excellent,
+you have successfully cleared all the levels of this simulation.
+
+Click on the 'RESTART' to play again</value>
+	</data>
+	<data name="Eosinophil" xml:space="preserve">
+		<value>Eosinophil</value>
+	</data>
+	<data name="eosinophil_Button" xml:space="preserve">
+		<value>Eosinophil</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Exit</value>
+	</data>
+	<data name="ExitMsg" xml:space="preserve">
+		<value>Click on the ‘Back’ button to go back to the previous menu</value>
+	</data>
+	<data name="firstMesseg" xml:space="preserve">
+		<value>Select BLOOD CELLS to view the list of cells.</value>
+	</data>
+	<data name="Greenbacteria_Dialoge" xml:space="preserve">
+		<value>You have reached the area containing harmful bacteria. 
+They can only be destroyed through phagocytosis by granulocytes.</value>
+	</data>
+	<data name="Home" xml:space="preserve">
+		<value>Home</value>
+	</data>
+	<data name="ImmunityLow_Dialoge" xml:space="preserve">
+		<value>The immunity of the body is getting low. Fill the area with the blood cells responsible for boosting immunity.</value>
+	</data>
+	<data name="Infection_Dialoge" xml:space="preserve">
+		<value>Certain infectious agents are detected in the blood stream. Inject this area with the blood cells to subside the symptoms of infection.</value>
+	</data>
+	<data name="Inst_LevelComplete" xml:space="preserve">
+		<value>You have completed this activity. Select OK to return to the menu and continue to the next activity.</value>
+	</data>
+	<data name="Label off" xml:space="preserve">
+		<value>Label off</value>
+	</data>
+	<data name="Label on" xml:space="preserve">
+		<value>Label on</value>
+	</data>
+	<data name="LearningOutcomes" xml:space="preserve">
+		<value>Learning outcomes
+
+After going through this simulation, you are now able to:
+● Identify different types of blood cells.
+● Describe the structure of different types of blood cells. 
+● Illustrate the functioning of each type of  blood cell.</value>
+	</data>
+	<data name="Level1" xml:space="preserve">
+		<value>Types of blood cells</value>
+	</data>
+	<data name="Level2" xml:space="preserve">
+		<value>Assess your knowledge</value>
+	</data>
+	<data name="Level20" xml:space="preserve">
+		<value>Restart</value>
+	</data>
+	<data name="Level3" xml:space="preserve">
+		<value>Level 3</value>
+	</data>
+	<data name="LoadButton" xml:space="preserve">
+		<value>FILL</value>
+	</data>
+	<data name="LookAroundMsg" xml:space="preserve">
+		<value>To look around in the environment or change your direction while moving, you can move your head left or right.</value>
+	</data>
+	<data name="LowOxygenArea_Dialoge" xml:space="preserve">
+		<value>You have an obstacle in your way.
+You are in an area with low oxygen, fill the area with the blood cells carrying oxygen.</value>
+	</data>
+	<data name="Lymphocyte" xml:space="preserve">
+		<value>Lymphocyte</value>
+	</data>
+	<data name="lymphocyte_Button" xml:space="preserve">
+		<value>Lymphocyte</value>
+	</data>
+	<data name="Menu" xml:space="preserve">
+		<value>Menu</value>
+	</data>
+	<data name="Monocyte" xml:space="preserve">
+		<value>Monocyte</value>
+	</data>
+	<data name="monocyte_Button" xml:space="preserve">
+		<value>Monocyte</value>
+	</data>
+	<data name="MoreBullets" xml:space="preserve">
+		<value>Inject more cells to complete the healing process.</value>
+	</data>
+	<data name="MoveForwardMsg" xml:space="preserve">
+		<value>Push the joystick forward or backward to move in that direction.</value>
+	</data>
+	<data name="Neutrophil" xml:space="preserve">
+		<value>Neutrophil</value>
+	</data>
+	<data name="neutrophil _Button" xml:space="preserve">
+		<value>Neutrophil</value>
+	</data>
+	<data name="NotBasophil" xml:space="preserve">
+		<value>Try again. This is not a basophil.</value>
+	</data>
+	<data name="NotEosinophil" xml:space="preserve">
+		<value>Try again. This is not an eosinophil.</value>
+	</data>
+	<data name="NotLymphocyte" xml:space="preserve">
+		<value>Try again. This is not a lymphocyte.</value>
+	</data>
+	<data name="NotMonocyte" xml:space="preserve">
+		<value>Try again. This is not a monocyte.</value>
+	</data>
+	<data name="NotNeutrophil" xml:space="preserve">
+		<value>Try again. This is not a neutrophil.</value>
+	</data>
+	<data name="NotPlatellets" xml:space="preserve">
+		<value>Try again. This is not a platelet.</value>
+	</data>
+	<data name="NotRBCs" xml:space="preserve">
+		<value>Try again. This is not a RBC.</value>
+	</data>
+	<data name="notThis" xml:space="preserve">
+		<value>This is not</value>
+	</data>
+	<data name="NumberOfCell" xml:space="preserve">
+		<value>You have to view 7 more types of blood cells.</value>
+	</data>
+	<data name="NumberOfCell1" xml:space="preserve">
+		<value>You have to view 6 more types of blood cells.</value>
+	</data>
+	<data name="NumberOfCell2" xml:space="preserve">
+		<value>You have to view 5 more types of blood cells.</value>
+	</data>
+	<data name="NumberOfCell3" xml:space="preserve">
+		<value>You have to view 4 more types of blood cells.</value>
+	</data>
+	<data name="NumberOfCell4" xml:space="preserve">
+		<value>You have to view 3 more types of blood cells.</value>
+	</data>
+	<data name="NumberOfCell5" xml:space="preserve">
+		<value>You have to view 2 more types of blood cells.</value>
+	</data>
+	<data name="NumberOfCell6" xml:space="preserve">
+		<value>You have to view 1 more type of blood cell.</value>
+	</data>
+	<data name="Objective" xml:space="preserve">
+		<value>View learning objectives</value>
+	</data>
+	<data name="Objective_Content" xml:space="preserve">
+		<value>Learning Objectives
+
+After completing this module, you will be able to:
+● List different types of blood cells.
+● Describe the structure of different types of blood cells.
+● Describe the function of different types of blood cells.</value>
+	</data>
+	<data name="ok" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="OnLoad" xml:space="preserve">
+		<value>Press the trigger to fill the area with the blood cells.</value>
+	</data>
+	<data name="paracyte_Dialoge" xml:space="preserve">
+		<value>This area is infected by the parasite, &lt;i&gt;Trypanosoma gambiense&lt;/i&gt;. Fill the area with the appropriate blood cells to fight the infection.</value>
+	</data>
+	<data name="Part1_Lable" xml:space="preserve">
+		<value>You are moving inside a blood vessel. You can increase the speed of your movement using the controller. Select each type of blood cell to learn more about it.</value>
+	</data>
+	<data name="Part1_Lable0" xml:space="preserve">
+		<value>You are traveling inside a blood vessel.
+ 
+You have a scanner with you, which can identify various barriers in your way. 
+ 
+To overcome the barriers, you are provided with a syringe which can be filled with blood cells as a preventative treatment.</value>
+	</data>
+	<data name="Part2_Lable" xml:space="preserve">
+		<value>Since, you have viewed all the different types of blood cells, collect two blood cells of each type. You can select a cell to collect it.</value>
+	</data>
+	<data name="Platelet" xml:space="preserve">
+		<value>Platelet</value>
+	</data>
+	<data name="Platellet_Button" xml:space="preserve">
+		<value>Platelet</value>
+	</data>
+	<data name="Play_again" xml:space="preserve">
+		<value>Play again</value>
+	</data>
+	<data name="Preferences" xml:space="preserve">
+		<value>Preferences</value>
+	</data>
+	<data name="RBC" xml:space="preserve">
+		<value>RBC</value>
+	</data>
+	<data name="RBC_Button" xml:space="preserve">
+		<value>Red blood cell (RBC)</value>
+	</data>
+	<data name="Restart" xml:space="preserve">
+		<value>Restart</value>
+	</data>
+	<data name="roundShapbacteria_Dialoge" xml:space="preserve">
+		<value>Round bacteria having immunity against granulocytes are detected here. Destroy them through phagocytosis by agranulocytes.</value>
+	</data>
+	<data name="Score" xml:space="preserve">
+		<value>Score</value>
+	</data>
+	<data name="ScoreBoardLevel2" xml:space="preserve">
+		<value>Score :</value>
+	</data>
+	<data name="ScoreBord" xml:space="preserve">
+		<value>RBC: 0-5</value>
+	</data>
+	<data name="selectCorrectBullet" xml:space="preserve">
+		<value>Try again.
+Select the appropriate blood cell.</value>
+	</data>
+	<data name="SelectMsg" xml:space="preserve">
+		<value>Select the object by using the 'OK' button</value>
+	</data>
+	<data name="Settings" xml:space="preserve">
+		<value>Settings</value>
+	</data>
+	<data name="Setup" xml:space="preserve">
+		<value>Setup</value>
+	</data>
+	<data name="Sync _to _Cloud" xml:space="preserve">
+		<value>Sync to Cloud</value>
+	</data>
+	<data name="Sync_to_Server" xml:space="preserve">
+		<value>Sync to Server</value>
+	</data>
+	<data name="Title" xml:space="preserve">
+		<value>Blood Cells</value>
+	</data>
+	<data name="Tryagain" xml:space="preserve">
+		<value>Try again.</value>
+	</data>
+	<data name="TryagainMsg" xml:space="preserve">
+		<value>You have scored less than 60%, You may play the simulation again to improve your score. Click 'OK' to proceed</value>
+	</data>
+	<data name="TryMsg" xml:space="preserve">
+		<value>Now you try</value>
+	</data>
+	<data name="VeativeVR" xml:space="preserve">
+		<value>Veative VR Learn Educational Apps</value>
+	</data>
+	<data name="Virtual)reality" xml:space="preserve">
+		<value>Virtual reality</value>
+	</data>
+	<data name="WelcomeBg" xml:space="preserve">
+		<value>Before beginning the simulation, let us first learn how to use the controller.</value>
+	</data>
+	<data name="WeldoneMsg" xml:space="preserve">
+		<value>Well done! You have completed this simulation. Click 'OK' to proceed</value>
+	</data>
+	<data name="WellDoneMsg" xml:space="preserve">
+		<value>Well done!</value>
+	</data>
+	<data name="Welldonepart1_Dialoge" xml:space="preserve">
+		<value>Well done!
+You have successfully relieved the symptoms.</value>
+	</data>
+	<data name="ZoomMsg" xml:space="preserve">
+		<value>The joystick is also used to zoom in and out.</value>
+	</data>
+</root>

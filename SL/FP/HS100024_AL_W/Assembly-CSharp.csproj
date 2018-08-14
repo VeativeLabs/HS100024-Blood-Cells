@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{27865C72-EA41-E1C5-DE92-B2A025C00550}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ArabicSupport\Scripts\Fix3dTextCS.cs" />
+     <Compile Include="Assets\ArabicSupport\Scripts\FixGUITextCS.cs" />
+     <Compile Include="Assets\ArabicSupport\Scripts\SetArabicTextExample.cs" />
+     <Compile Include="Assets\BackMenu\BackMenu.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\BelowUiEnableDisable.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\HowToSetup\Script\AnAnimation.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\HowToSetup\Script\UseInterface.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\HowToSetup\Script\UserInterClick.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\HowToSetup\Script\UserInterDrag.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\HowToSetup\Script\UserInterMove.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\MovementController.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\Scripts\BelowMenuManager.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\Scripts\MenuManager.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\Scripts\VRSteeringCamera.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\Scripts\scoreManager.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\UIs\Scripts\Smoothing.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\UIs\Scripts\TextScaleTarget.cs" />
+     <Compile Include="Assets\BloodCell\MainMenu\lookAtCamera.cs" />
+     <Compile Include="Assets\BloodCell\Script\BacteriaMove.cs" />
+     <Compile Include="Assets\BloodCell\Script\CanvasController.cs" />
+     <Compile Include="Assets\BloodCell\Script\ChangeUiImage.cs" />
+     <Compile Include="Assets\BloodCell\Script\ConstantTranslate.cs" />
+     <Compile Include="Assets\BloodCell\Script\EnergyBar.cs" />
+     <Compile Include="Assets\BloodCell\Script\FixVeriable.cs" />
+     <Compile Include="Assets\BloodCell\Script\Genrate_Tunnal.cs" />
+     <Compile Include="Assets\BloodCell\Script\Genrate_Tunnal2.cs" />
+     <Compile Include="Assets\BloodCell\Script\Genratebacteria.cs" />
+     <Compile Include="Assets\BloodCell\Script\HighLight.cs" />
+     <Compile Include="Assets\BloodCell\Script\Level1Controller.cs" />
+     <Compile Include="Assets\BloodCell\Script\Level2Controller.cs" />
+     <Compile Include="Assets\BloodCell\Script\Pool.cs" />
+     <Compile Include="Assets\BloodCell\Script\RandomRotation.cs" />
+     <Compile Include="Assets\BloodCell\Script\SoundManager.cs" />
+     <Compile Include="Assets\BloodCell\Script\doChildrenOn.cs" />
+     <Compile Include="Assets\BloodCell\Script\movePools.cs" />
+     <Compile Include="Assets\BloodCell\Script\shootingCell.cs" />
+     <Compile Include="Assets\BloodCell\Script\showOst.cs" />
+     <Compile Include="Assets\BloodCell\Script\zoomInOut.cs" />
+     <Compile Include="Assets\CaptureImage.cs" />
+     <Compile Include="Assets\ControllerButtonHandler\ControllerButtonHandler.cs" />
+     <Compile Include="Assets\CurvedUI Menu\CurvedUI\Scripts\CurvedUIInputFieldCaret.cs" />
+     <Compile Include="Assets\CurvedUI Menu\CurvedUI\Scripts\CurvedUIPointerEventData.cs" />
+     <Compile Include="Assets\CurvedUI Menu\CurvedUI\Scripts\CurvedUIRaycaster.cs" />
+     <Compile Include="Assets\CurvedUI Menu\CurvedUI\Scripts\CurvedUISettings.cs" />
+     <Compile Include="Assets\CurvedUI Menu\CurvedUI\Scripts\CurvedUIVertexEffect.cs" />
+     <Compile Include="Assets\CurvedUI Menu\CurvedUI\Scripts\CurvedUIViveController.cs" />
+     <Compile Include="Assets\CurvedUI Menu\CurvedUI\Scripts\CurvedUIViveInputModule.cs" />
+     <Compile Include="Assets\CurvedUI Menu\CurvedUI\Scripts\Experimental\CurvedUITMP.cs" />
+     <Compile Include="Assets\CurvedUI Menu\Scripts\AlertPanelManager.cs" />
+     <Compile Include="Assets\CurvedUI Menu\Scripts\ButtonTextHighlight.cs" />
+     <Compile Include="Assets\CurvedUI Menu\Scripts\DropDownForVR.cs" />
+     <Compile Include="Assets\CurvedUI Menu\Scripts\HandleSyncButton.cs" />
+     <Compile Include="Assets\CurvedUI Menu\Scripts\MenuAdjust.cs" />
+     <Compile Include="Assets\CurvedUI Menu\Scripts\ReverseMenu.cs" />
+     <Compile Include="Assets\CurvedUI Menu\Scripts\SnappedRotation.cs" />
+     <Compile Include="Assets\Database\Scripts\DBScripts\DBQuestionHandler.cs" />
+     <Compile Include="Assets\Database\Scripts\DBScripts\DatabaseConnection.cs" />
+     <Compile Include="Assets\Database\Scripts\DBScripts\DatabaseManager.cs" />
+     <Compile Include="Assets\Database\Scripts\DBScripts\MyDatabase.cs" />
+     <Compile Include="Assets\Database\Scripts\DummyDataEntry.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\Teleport.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\KeyboardDemo\KeyboardDelegateExample.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\PermissionsDemo\PermissionsFlowManager.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\JumpToPage.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PageProviders\ChildrenPageProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PageProviders\IPageProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PageProviders\PooledPageProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PageProviders\PrefabPageProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PagedScrollBar.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PagedScrollRect.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\BaseScrollEffect.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\BaseTile.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\FadeScrollEffect.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\FloatTile.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\MaskedTile.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\ScaleScrollEffect.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\TileScrollEffect.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\TiledPage.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\TranslateScrollEffect.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\GameObjectPool.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\GameObjectPoolController.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\IObjectPool.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\ObjectPool.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\ObjectPoolManager.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Tabs\Tab.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Tabs\TabGroup.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Transitions\IUITransition.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Transitions\UIFadeTransition.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\AppButtonInput.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\AutoPlayVideo.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\MenuHandler.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\PositionSwapper.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\ScrubberEvents.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\SwitchVideos.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\ToggleAction.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\VideoControlsManager.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\VideoPlayerReference.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrArmModelOffsets.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrController.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrControllerVisualManager.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrPointerManager.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudio.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioListener.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioRoom.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSoundfield.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSource.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrArmModel.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrBaseArmModel.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrFollowControllerPose.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\IGvrArmModelReceiver.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerInput.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerTooltipsSimple.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerVisual.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrLaserVisual.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrRecenterOnlyController.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrTooltip.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrTrackedController.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviderFactory.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\AndroidNativeControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EditorControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\MouseControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerState.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorClientSocket.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorManager.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\PhoneEvent.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointer.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointerRaycaster.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrEventInterfacesExtension.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrExecuteEventsExtension.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerGraphicRaycaster.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerPhysicsRaycaster.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerScrollInput.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrScrollSettings.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\IGvrScrollSettings.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrAllEventsTrigger.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrEventExecutor.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrPointerInputModule.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrPointerInputModuleImpl.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\IGvrEventExecutor.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\IGvrInputModuleController.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\GvrCardboardHelpers.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\GvrEditorEmulator.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\GvrSettings.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\GvrUnitySdkVersion.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboard.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardDelegateBase.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardIntent.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\IKeyboardProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviderFactory.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\AndroidNativeKeyboardProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\DummyKeyboardProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\EmulatorKeyboardProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardState.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Permissions\GvrPermissionsRequester.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Pose3D.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\PropertyDrawers\GvrInfoDrawer.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrBaseControllerVisual.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrDropdown.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrLaserPointer.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrReticlePointer.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrActivityHelper.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrDaydreamApi.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrMathHelpers.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\LanguageHandler\Script\LocaliseFontSizeChanger.cs" />
+     <Compile Include="Assets\Loading Scene\LoadingScene.cs" />
+     <Compile Include="Assets\Loading Scene\SceneLoader.cs" />
+     <Compile Include="Assets\PlayPauseSimulation\PlayPauseSimulation.cs" />
+     <Compile Include="Assets\ProjectSetup_VR\MainMenu\HowToSetup\Script\ButtonsAction.cs" />
+     <Compile Include="Assets\ProjectSetup_VR\MainMenu\HowToSetup\Script\DragDrop.cs" />
+     <Compile Include="Assets\ProjectSetup_VR\MainMenu\HowToSetup\Script\EndIntro.cs" />
+     <Compile Include="Assets\ProjectSetup_VR\MainMenu\HowToSetup\Script\HeadRotation.cs" />
+     <Compile Include="Assets\ProjectSetup_VR\MainMenu\HowToSetup\Script\LookAround.cs" />
+     <Compile Include="Assets\ProjectSetup_VR\MainMenu\HowToSetup\Script\Move.cs" />
+     <Compile Include="Assets\ProjectSetup_VR\MainMenu\HowToSetup\Script\Select.cs" />
+     <Compile Include="Assets\ProjectSetup_VR\MainMenu\HowToSetup\Script\Zoom.cs" />
+     <Compile Include="Assets\RandomExclamations\RandomExclamation.cs" />
+     <Compile Include="Assets\Resources\Script\GlobalAudioSrc.cs" />
+     <Compile Include="Assets\Resources\Script\LanguageHandler.cs" />
+     <Compile Include="Assets\Resources\Script\LocaliseTextAndVoiceOver.cs" />
+     <Compile Include="Assets\Resources\Script\LocaliseVoiceOver.cs" />
+     <Compile Include="Assets\Scripts\ControllerBtns.cs" />
+     <Compile Include="Assets\SetupNew\JMO Assets\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
+     <Compile Include="Assets\SetupNew\JMO Assets\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />
+     <Compile Include="Assets\SetupNew\Script\DragDropVR.cs" />
+     <Compile Include="Assets\SmartLocalization\Examples\LoadAllLanguages.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\NGUI\SL_NGUILabel.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\NGUI\SL_NGUISpriteAtlas.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\NGUI\SL_NGUISpriteName.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\uGUI\LocalizedText.cs" />
+     <Compile Include="Assets\VrSelector\VrSelector.cs" />
+     <Compile Include="Assets\menu_new\AfterLOHandler.cs" />
+     <Compile Include="Assets\menu_new\ProgressPanelManager.cs" />
+     <Compile Include="Assets\menu_new\SideLanguage\LanguageSelectionManager.cs" />
+     <Compile Include="Assets\menu_new\SideLanguage\OnrotationTableDisable.cs" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_Dt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_NSI.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_ST.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.zh-CN.txt" />
+     <None Include="Assets\Glass_shader 1\Glass Reflective net.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_NS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_Nt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N__S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_Dt_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_DS.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.en-US.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_Dt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_DS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_Nt.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Add.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_St.shader" />
+     <None Include="Assets\Glass_shader 1\Customtoher.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_S.shader" />
+     <None Include="Assets\SmartLocalization\README.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N__S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D__S.shader" />
+     <None Include="Assets\Glass_shader 1\Glass Reflective.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_Nt_S.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\AvailableCultures.xml" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\Data\SmartCultureInfoData\SmartCultureInfo.xml" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_DS.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_ST.shader" />
+     <None Include="Assets\Glass_shader\Custom.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_DS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_D.shader" />
+     <None Include="Assets\DoubleSidedMaterialUnity\Double Sided Standard Diffuse Bump.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_D.shader" />
+     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
+     <None Include="Assets\SmartLocalization\smartloc_licenses.txt" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_ODSMerge.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_DS.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Div.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_N.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+     <None Include="Assets\Glass_shader 1\Unlit Transparent HUD.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_S.shader" />
+     <None Include="Assets\Glass_shader 1\Glass.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_N.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_T.shader" />
+     <None Include="Assets\Glass_shader\Unlit Transparent HUD.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_Nt.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.ar.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D.shader" />
+     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_DS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_DI.shader" />
+     <None Include="Assets\Glass_shader\Glass.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_D.shader" />
+     <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\CubemapToEquirectangular.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.txt" />
+     <None Include="Assets\BackMenu\Overlay\OverlayUI.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_DSI.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D__S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S.shader" />
+     <None Include="Assets\Glass_shader 1\Custom.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_DS.shader" />
+     <None Include="Assets\Bit2Good\SFS\Shaders\Mobile\SFS_M_NSI.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_Dt.shader" />
+     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_N.shader" />
+     <None Include="Assets\CurvedUI Menu\CurvedUI\Shaders and Materials\UIAlwaysOnTop.shader" />
+     <None Include="Assets\BloodCell\Scene\StandardDoublesided.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_NI.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_Nt_S.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\DemoScenes\Resources\AVProMovieCapture_Plasma.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_D.shader" />
+     <None Include="Assets\Glass_shader\Glass Reflective.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_DS.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_S.shader" />
+     <None Include="Assets\SmartLocalization\Resources\EmptyResourceHeader.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N.shader" />
+     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_Dt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_St.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_Nt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_D.shader" />
+     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_Dt_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_ST.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.en-GB.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_DS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_T.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="ArabicSupport">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/ArabicSupport/Plugins/ArabicSupport.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/BloodCell/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/BloodCell/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/BloodCell/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/BloodCell/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/Mono.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.Sqlite">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.SqliteClient">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Configuration">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/System.Configuration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.EnterpriseServices">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/System.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="SmartLocalization_Runtime">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/SmartLocalization/SmartLocalization_Runtime.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{180ABEFD-4FCA-BA27-81F3-F48DE3C03E86}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{97628795-88A3-88D1-58F5-87D8C16FFF6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;UNITY_HAS_GOOGLEVR;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CurvedUI Menu\CurvedUI\Scripts\Editor\CurvedUISettingsEditor.cs" />
+     <Compile Include="Assets\CurvedUI Menu\Editor\MenuAdjustEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Editor\PagedScrollbarEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Audio\GvrAudioListenerEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Audio\GvrAudioRoomEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Audio\GvrAudioSourceEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrMenu.cs" />
+     <Compile Include="Assets\LanguageHandler\Editor\LanguageHandlerEditor.cs" />
+     <Compile Include="Assets\RandomExclamations\Editor\RandomExclamationEditor.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\NGUI\Editor\SL_NGUILabelInspector.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\NGUI\Editor\SL_NGUISpriteAtlasInspector.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\NGUI\Editor\SL_NGUISpriteNameInspector.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\uGUI\Editor\LocalizedTextInspector.cs" />
+     <Compile Include="Assets\VrSelector\Editor\VrSelectorEditor.cs" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_Dt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_NSI.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_ST.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.zh-CN.txt" />
+     <None Include="Assets\Glass_shader 1\Glass Reflective net.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_NS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_Nt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N__S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_Dt_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_DS.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.en-US.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_Dt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_DS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_Nt.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Add.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_St.shader" />
+     <None Include="Assets\Glass_shader 1\Customtoher.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_S.shader" />
+     <None Include="Assets\SmartLocalization\README.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N__S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D__S.shader" />
+     <None Include="Assets\Glass_shader 1\Glass Reflective.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_Nt_S.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\AvailableCultures.xml" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\Data\SmartCultureInfoData\SmartCultureInfo.xml" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_DS.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_ST.shader" />
+     <None Include="Assets\Glass_shader\Custom.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_DS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_D.shader" />
+     <None Include="Assets\DoubleSidedMaterialUnity\Double Sided Standard Diffuse Bump.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_D.shader" />
+     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
+     <None Include="Assets\SmartLocalization\smartloc_licenses.txt" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_ODSMerge.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_DS.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Div.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_N.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+     <None Include="Assets\Glass_shader 1\Unlit Transparent HUD.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_S.shader" />
+     <None Include="Assets\Glass_shader 1\Glass.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_ST.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_N.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_T.shader" />
+     <None Include="Assets\Glass_shader\Unlit Transparent HUD.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_Nt.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.ar.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D.shader" />
+     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_DS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_DI.shader" />
+     <None Include="Assets\Glass_shader\Glass.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_D.shader" />
+     <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\CubemapToEquirectangular.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.txt" />
+     <None Include="Assets\BackMenu\Overlay\OverlayUI.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_DSI.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D__S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S.shader" />
+     <None Include="Assets\Glass_shader 1\Custom.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_DS.shader" />
+     <None Include="Assets\Bit2Good\SFS\Shaders\Mobile\SFS_M_NSI.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_Dt.shader" />
+     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_N.shader" />
+     <None Include="Assets\CurvedUI Menu\CurvedUI\Shaders and Materials\UIAlwaysOnTop.shader" />
+     <None Include="Assets\BloodCell\Scene\StandardDoublesided.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Mobile\SFS_M_NI.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_T.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_Nt_S.shader" />
+     <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\DemoScenes\Resources\AVProMovieCapture_Plasma.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_D.shader" />
+     <None Include="Assets\Glass_shader\Glass Reflective.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_DS.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_S_S.shader" />
+     <None Include="Assets\SmartLocalization\Resources\EmptyResourceHeader.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N.shader" />
+     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_Dt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\Terrain\SFS_Te_St.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_Nt.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_S_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_N_S_D.shader" />
+     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_Dt_S.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_N_S_ST.shader" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.en-GB.txt" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_St_D_D.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_DS.shader" />
+     <None Include="Assets\BloodCell\Bit2Good\SFS\Shaders\SFS_Pr_D_T.shader" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/unity 5.6.2f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="ArabicSupport">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/ArabicSupport/Plugins/ArabicSupport.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/BloodCell/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/BloodCell/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/BloodCell/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/BloodCell/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/BloodCell/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/Mono.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.Sqlite">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.SqliteClient">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Configuration">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/System.Configuration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.EnterpriseServices">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/Plugins/System.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/SetupNew/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ </Reference>
+ <Reference Include="SmartLocalization_Runtime">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/SmartLocalization/SmartLocalization_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmartLocalization_Editor">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/SmartLocalization/Editor/SmartLocalization_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="CsvHelper">
+ <HintPath>D:/Bio/Unity5.6/HS100024_BloodCell/HS100024_AL_W/Assets/SmartLocalization/Scripts/Editor/ThirdParty/CSVHelper/CsvHelper.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{180ABEFD-4FCA-BA27-81F3-F48DE3C03E86}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{27865C72-EA41-E1C5-DE92-B2A025C00550}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{350C1579-8166-947D-BF08-B4EAB1430CD0}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
